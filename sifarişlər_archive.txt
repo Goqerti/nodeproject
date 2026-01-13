@@ -1,0 +1,1822 @@
+[
+  {
+    "satisNo": "1696",
+    "creationTimestamp": "2025-06-16T10:09:24.244Z",
+    "createdBy": "leyaget",
+    "turist": "Mr. KINJEEVA DILBAR , MRS .ATADJANOVA SVETLANA ",
+    "xariciSirket": "Easybooking",
+    "adultGuests": "4",
+    "childGuests": "0",
+    "vizaSayi": "",
+    "rezNomresi": "351757 \t",
+    "status": "Bitdi",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "Vuqar ",
+      "xerci": 0,
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "Transfer to Hotel \nAirport transfer ",
+      "elaveXidmetler": ""
+    },
+    "hotels": [
+      {
+        "otelAdi": "Atlas Baku Hotel 4*",
+        "otaqKategoriyasi": "2x Standard twin",
+        "girisTarixi": "2025-06-02",
+        "cixisTarixi": "2025-06-09",
+        "qiymet": 1190,
+        "confirmationPath": ""
+      }
+    ],
+    "paymentStatus": "Ödənilib",
+    "paymentDueDate": "2025-06-15",
+    "alish": {
+      "amount": 1250,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 4370,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 60,
+      "beledciXerci": 0,
+      "muzeyXerci": 0,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "tourists": [
+      "Mr. KINJEEVA DILBAR , MRS .ATADJANOVA SVETLANA",
+      "..",
+      "..",
+      ".."
+    ],
+    "archivedAt": "2026-01-12T15:22:36.454Z",
+    "archivedBy": "said"
+  },
+  {
+    "satisNo": "1698",
+    "creationTimestamp": "2025-06-16T10:26:31.803Z",
+    "createdBy": "leyaget",
+    "turist": "TOSHEV BURON",
+    "xariciSirket": "Easybooking",
+    "adultGuests": "4",
+    "childGuests": "0",
+    "vizaSayi": "",
+    "rezNomresi": "353207",
+    "status": "Bitdi",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "Vuqar ",
+      "xerci": 0,
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "Transfer to Naftalan hotel\nTransfer to airport ",
+      "elaveXidmetler": ""
+    },
+    "hotels": [
+      {
+        "otelAdi": "Garabagh Resort Spa",
+        "otaqKategoriyasi": "2x Deluxe king",
+        "girisTarixi": "2025-06-02",
+        "cixisTarixi": "2025-06-09",
+        "qiymet": 3600,
+        "confirmationPath": ""
+      }
+    ],
+    "paymentStatus": "Ödənilib",
+    "paymentDueDate": "2025-06-15",
+    "alish": {
+      "amount": 3880,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 3900,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 280,
+      "beledciXerci": 0,
+      "muzeyXerci": 0,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "tourists": [
+      "TOSHEV BURON",
+      "..",
+      "..",
+      ".."
+    ],
+    "archivedAt": "2026-01-12T15:22:36.454Z",
+    "archivedBy": "said"
+  },
+  {
+    "satisNo": "1699",
+    "creationTimestamp": "2025-06-16T10:41:17.575Z",
+    "createdBy": "leyaget",
+    "turist": "NAPASOVA JUMAGUL",
+    "xariciSirket": "Easybooking",
+    "adultGuests": "2",
+    "childGuests": "0",
+    "vizaSayi": "",
+    "rezNomresi": "356361",
+    "status": "Davam edir",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "Vuqar ",
+      "xerci": 0,
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "Transfer to Naftalan \nTransfer to Baku Hotel \nTransfer to airport ",
+      "elaveXidmetler": ""
+    },
+    "hotels": [
+      {
+        "otelAdi": "Gashalti And Spa Hotel 5*",
+        "otaqKategoriyasi": "1x standard twin",
+        "girisTarixi": "2025-06-02",
+        "cixisTarixi": "2025-06-07",
+        "qiymet": 1150,
+        "confirmationPath": ""
+      },
+      {
+        "otelAdi": "Regal inn",
+        "otaqKategoriyasi": "1x Standard dbl",
+        "girisTarixi": "2025-06-07",
+        "cixisTarixi": "2025-06-09",
+        "qiymet": 120,
+        "confirmationPath": ""
+      }
+    ],
+    "paymentStatus": "Ödənilib",
+    "paymentDueDate": "2025-06-15",
+    "alish": {
+      "amount": 1490,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 1601,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 220,
+      "beledciXerci": 0,
+      "muzeyXerci": 0,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "tourists": [
+      "NAPASOVA JUMAGUL",
+      "..."
+    ],
+    "archivedAt": "2026-01-12T15:22:36.454Z",
+    "archivedBy": "said"
+  },
+  {
+    "satisNo": "1700",
+    "creationTimestamp": "2025-06-16T10:48:26.328Z",
+    "createdBy": "leyaget",
+    "turist": "ISAEV RAKHIM , ISAEV RAKHIM",
+    "xariciSirket": "Easybooking",
+    "adultGuests": "4",
+    "childGuests": "0",
+    "vizaSayi": "0",
+    "rezNomresi": "351477",
+    "status": "Bitdi",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "Vuqar ",
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "Transfer to Naftalan \nTransfer to Airport ",
+      "elaveXidmetler": ""
+    },
+    "hotels": [
+      {
+        "otelAdi": "Suncity and Spa Naftalan",
+        "otaqKategoriyasi": "2x Superior dbl",
+        "girisTarixi": "2025-06-02",
+        "cixisTarixi": "2025-06-09",
+        "qiymet": 2496
+      }
+    ],
+    "paymentStatus": "Ödənilib",
+    "paymentDueDate": "2025-06-15",
+    "alish": {
+      "amount": 2776,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 2984,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 280,
+      "beledciXerci": 0,
+      "muzeyXerci": 0,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "archivedAt": "2026-01-12T15:22:36.454Z",
+    "archivedBy": "said"
+  },
+  {
+    "satisNo": "1701",
+    "creationTimestamp": "2025-06-16T11:25:42.657Z",
+    "createdBy": "leyaget",
+    "turist": "DONIYOROV NIMATULLA , KALANDAROV OLLABERGAN",
+    "xariciSirket": "Easybooking",
+    "adultGuests": "4",
+    "childGuests": "0",
+    "vizaSayi": "",
+    "rezNomresi": "356674",
+    "status": "Davam edir",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "Vuqar ",
+      "xerci": 0,
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "1 день // Прибытие\n2 день // Экскурсия в Кубу // Ночевка в Баку\n3 день // Трансфер в Габалу + экскурсия // Ночевка в Габале\n4 день // Трансфер в Шеки + экскурсии // Ночевка в Шеки\n5 день // Трансфер в Баку\n6 день // Обзорная экскурсия по Баку\n7 день // Свободный день\n8 день // Отъезд",
+      "elaveXidmetler": "канатная дорога в Габале Дворец ханов в Шеки"
+    },
+    "hotels": [
+      {
+        "otelAdi": "Atlas Hotel Baku 4*",
+        "otaqKategoriyasi": "2x standard dbl",
+        "girisTarixi": "2025-06-02",
+        "cixisTarixi": "2025-06-04",
+        "qiymet": 340,
+        "confirmationPath": ""
+      },
+      {
+        "otelAdi": "Gabala 7 gozel Hotel 3*",
+        "otaqKategoriyasi": "2x Superior king",
+        "girisTarixi": "2025-06-04",
+        "cixisTarixi": "2025-06-05",
+        "qiymet": 135,
+        "confirmationPath": ""
+      },
+      {
+        "otelAdi": "Old Town Sheki Hotel 4*",
+        "otaqKategoriyasi": "2x standard dbl",
+        "girisTarixi": "2025-06-05",
+        "cixisTarixi": "2025-06-06",
+        "qiymet": 140,
+        "confirmationPath": ""
+      },
+      {
+        "otelAdi": "Atlas Hotel Baku 4*",
+        "otaqKategoriyasi": "2x standard dbl",
+        "girisTarixi": "2025-06-06",
+        "cixisTarixi": "2025-06-09",
+        "qiymet": 510,
+        "confirmationPath": ""
+      }
+    ],
+    "paymentStatus": "Ödənilib",
+    "paymentDueDate": "2025-06-15",
+    "alish": {
+      "amount": 1857,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 1996,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 620,
+      "beledciXerci": 0,
+      "muzeyXerci": 112,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "tourists": [
+      "DONIYOROV NIMATULLA , KALANDAROV OLLABERGAN",
+      "//",
+      "..",
+      ".."
+    ],
+    "archivedAt": "2026-01-12T15:22:36.454Z",
+    "archivedBy": "said"
+  },
+  {
+    "satisNo": "1703",
+    "creationTimestamp": "2025-06-16T11:41:51.039Z",
+    "createdBy": "leyaget",
+    "turist": "ALIMOV SAFAR , SADIEVA DILORA ,   AKHMEDOV JAVLONBEK",
+    "xariciSirket": "Easybooking",
+    "adultGuests": "7",
+    "childGuests": "0",
+    "vizaSayi": "0",
+    "rezNomresi": "355232",
+    "status": "Bitdi",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "Vuqar ",
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "1.День – Прибытие\n2.День – Обзорная экскурсия по Баку\n3.День – Апшерон\n4.День – Свободный день\n5.День – Свободный день\n6.День – Свободный день\n7.День – Шопинг-тур\n8.День – Отъезд\n",
+      "elaveXidmetler": "Temple of fire , fire mountain"
+    },
+    "hotels": [
+      {
+        "otelAdi": "Regal inn Hotel 4*",
+        "otaqKategoriyasi": "2x standard dbl + 1x standard trpl",
+        "girisTarixi": "2025-06-02",
+        "cixisTarixi": "2025-06-09",
+        "qiymet": 1400
+      }
+    ],
+    "paymentStatus": "Ödənilib",
+    "paymentDueDate": "",
+    "alish": {
+      "amount": 2295,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 2467,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 470,
+      "beledciXerci": 320,
+      "muzeyXerci": 105,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "archivedAt": "2026-01-12T15:22:36.454Z",
+    "archivedBy": "said"
+  },
+  {
+    "satisNo": "1704",
+    "creationTimestamp": "2025-06-16T11:55:45.103Z",
+    "createdBy": "leyaget",
+    "turist": "SHARIPOVA SHOIRA",
+    "xariciSirket": "Easybooking",
+    "adultGuests": "1",
+    "childGuests": "0",
+    "vizaSayi": "0",
+    "rezNomresi": "357313",
+    "status": "Bitdi",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "Vuqar ",
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "1.День – Прибытие\n2.День – Обзорная экскурсия по Баку\n3.День – Апшерон\n4.День – Свободный день\n5.День – Свободный день\n6.День – Свободный день\n7.День – Шопинг-тур\n8.День – Отъезд\n",
+      "elaveXidmetler": "Temple of fire , fire mountain"
+    },
+    "hotels": [
+      {
+        "otelAdi": "Regal inn",
+        "otaqKategoriyasi": "1x standard sngl",
+        "girisTarixi": "2025-06-02",
+        "cixisTarixi": "2025-06-09",
+        "qiymet": 350
+      }
+    ],
+    "paymentStatus": "Ödənilib",
+    "paymentDueDate": "2025-06-15",
+    "alish": {
+      "amount": 575,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 661.25,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 210,
+      "beledciXerci": 0,
+      "muzeyXerci": 15,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "archivedAt": "2026-01-12T15:22:36.454Z",
+    "archivedBy": "said"
+  },
+  {
+    "satisNo": "1705",
+    "creationTimestamp": "2025-06-16T12:15:10.853Z",
+    "createdBy": "leyaget",
+    "turist": "ABDULLAEV JONPULOT , GADOEV KHOLMUROT , GADOEV KHOLMUROT",
+    "xariciSirket": "Easybooking",
+    "adultGuests": "6",
+    "childGuests": "0",
+    "vizaSayi": "0",
+    "rezNomresi": "357627",
+    "status": "Bitdi",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "Vuqar ",
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "Transfer to Naftalan \nTransfer to airport ",
+      "elaveXidmetler": ""
+    },
+    "hotels": [
+      {
+        "otelAdi": "SunCity Hotel 4*",
+        "otaqKategoriyasi": "2x Superior dbl + 1x Superior twin",
+        "girisTarixi": "2025-06-02",
+        "cixisTarixi": "2025-06-09",
+        "qiymet": 3744
+      }
+    ],
+    "paymentStatus": "Ödənilib",
+    "paymentDueDate": "2025-06-15",
+    "alish": {
+      "amount": 4024,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 4321,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 280,
+      "beledciXerci": 0,
+      "muzeyXerci": 0,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "archivedAt": "2026-01-12T15:22:36.454Z",
+    "archivedBy": "said"
+  },
+  {
+    "satisNo": "1706",
+    "creationTimestamp": "2025-06-16T12:21:01.129Z",
+    "createdBy": "leyaget",
+    "turist": "MATKARIMOVA MAKHLYUBA",
+    "xariciSirket": "Easybooking",
+    "adultGuests": "3",
+    "childGuests": "0",
+    "vizaSayi": "0",
+    "rezNomresi": "35764",
+    "status": "Bitdi",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "Vuqar ",
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "1.День – Прибытие\n2.День – Обзорная экскурсия по Баку\n3.День – Апшерон\n4.День – Свободный день\n5.День – Свободный день\n6.День – Свободный день\n7.День – Шопинг-тур\n8.День – Отъезд",
+      "elaveXidmetler": "Temple of fire , fire mountain"
+    },
+    "hotels": [
+      {
+        "otelAdi": "Atlas Hotel Baku 4*",
+        "otaqKategoriyasi": "1x standard trpl",
+        "girisTarixi": "2025-06-02",
+        "cixisTarixi": "2025-06-09",
+        "qiymet": 735
+      }
+    ],
+    "paymentStatus": "Ödənilib",
+    "paymentDueDate": "2025-06-15",
+    "alish": {
+      "amount": 990,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 1064,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 210,
+      "beledciXerci": 0,
+      "muzeyXerci": 45,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "archivedAt": "2026-01-12T15:22:36.454Z",
+    "archivedBy": "said"
+  },
+  {
+    "satisNo": "1707",
+    "creationTimestamp": "2025-06-16T12:29:32.667Z",
+    "createdBy": "leyaget",
+    "turist": "ABDUSHEV KURVANALI",
+    "xariciSirket": "Easybooking",
+    "adultGuests": "2",
+    "childGuests": "0",
+    "vizaSayi": "0",
+    "rezNomresi": "357648",
+    "status": "Bitdi",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "Vuqar ",
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "Transfer to Naftalan \nTransfer to airport",
+      "elaveXidmetler": ""
+    },
+    "hotels": [
+      {
+        "otelAdi": "Chinar Health Hotel Naftalan",
+        "otaqKategoriyasi": "1x standard king",
+        "girisTarixi": "2025-06-02",
+        "cixisTarixi": "2025-06-09",
+        "qiymet": 1610
+      }
+    ],
+    "paymentStatus": "Ödənilib",
+    "paymentDueDate": "2025-06-15",
+    "alish": {
+      "amount": 1810,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 1945,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 200,
+      "beledciXerci": 0,
+      "muzeyXerci": 0,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "archivedAt": "2026-01-12T15:22:36.454Z",
+    "archivedBy": "said"
+  },
+  {
+    "satisNo": "1708",
+    "creationTimestamp": "2025-06-16T12:38:38.209Z",
+    "createdBy": "leyaget",
+    "turist": "SIDIKOV GOLIB",
+    "xariciSirket": "Easybooking",
+    "adultGuests": "6",
+    "childGuests": "0",
+    "vizaSayi": "0",
+    "rezNomresi": "357706",
+    "status": "Bitdi",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "Vuqar ",
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "Transfer to Hotel \nTransfer to airport ",
+      "elaveXidmetler": ""
+    },
+    "hotels": [
+      {
+        "otelAdi": "Emrald",
+        "otaqKategoriyasi": "3x standard twn + 1x standard dbl",
+        "girisTarixi": "2025-06-02",
+        "cixisTarixi": "2025-06-09",
+        "qiymet": 2240
+      }
+    ],
+    "paymentStatus": "Ödənilib",
+    "paymentDueDate": "2025-06-15",
+    "alish": {
+      "amount": 2340,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 0,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 100,
+      "beledciXerci": 0,
+      "muzeyXerci": 0,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "archivedAt": "2026-01-12T15:22:36.454Z",
+    "archivedBy": "said"
+  },
+  {
+    "satisNo": "1709",
+    "creationTimestamp": "2025-06-16T12:48:16.299Z",
+    "createdBy": "leyaget",
+    "turist": "MUMINOVA KHADICHA",
+    "xariciSirket": "Easybooking",
+    "adultGuests": "2",
+    "childGuests": "0",
+    "vizaSayi": "",
+    "rezNomresi": "353867",
+    "status": "Bitdi",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "",
+      "xerci": 0,
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "Transfer to Naftalan \nTransfer to Baku \nTransfer to airport ",
+      "elaveXidmetler": ""
+    },
+    "hotels": [
+      {
+        "otelAdi": "Nur Naftalan",
+        "otaqKategoriyasi": "1x standard dbl",
+        "girisTarixi": "2025-06-04",
+        "cixisTarixi": "2025-06-11",
+        "qiymet": 840,
+        "confirmationPath": ""
+      },
+      {
+        "otelAdi": "Regal inn",
+        "otaqKategoriyasi": "1x standard dbl",
+        "girisTarixi": "2025-06-11",
+        "cixisTarixi": "2025-06-14",
+        "qiymet": 180,
+        "confirmationPath": ""
+      }
+    ],
+    "paymentStatus": "Ödənilib",
+    "paymentDueDate": "2025-06-15",
+    "alish": {
+      "amount": 1240,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 1333,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 220,
+      "beledciXerci": 0,
+      "muzeyXerci": 0,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "tourists": [
+      "MUMINOVA KHADICHA",
+      "..."
+    ],
+    "archivedAt": "2026-01-12T15:22:36.454Z",
+    "archivedBy": "said"
+  },
+  {
+    "satisNo": "1711",
+    "creationTimestamp": "2025-06-16T13:18:41.992Z",
+    "createdBy": "leyaget",
+    "turist": "ANASOV HISRAV , ERGASHEVA UMIDA",
+    "xariciSirket": "Mahmud ",
+    "adultGuests": "2",
+    "childGuests": "0",
+    "vizaSayi": "0",
+    "rezNomresi": "AWI00014",
+    "status": "Bitdi",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "Vuqar ",
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "Transfer to Naftalan \nTransfer to airport",
+      "elaveXidmetler": ""
+    },
+    "hotels": [
+      {
+        "otelAdi": "SunCity Hotel Naftalan",
+        "otaqKategoriyasi": "1x standard dbl",
+        "girisTarixi": "2025-06-04",
+        "cixisTarixi": "2025-06-14",
+        "qiymet": 1872
+      }
+    ],
+    "paymentStatus": "Ödənilməyib",
+    "paymentDueDate": "2025-06-15",
+    "alish": {
+      "amount": 2072,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 2175,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 200,
+      "beledciXerci": 0,
+      "muzeyXerci": 0,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "archivedAt": "2026-01-12T15:22:36.454Z",
+    "archivedBy": "said"
+  },
+  {
+    "satisNo": "1874",
+    "creationTimestamp": "2025-07-30T16:50:06.992Z",
+    "createdBy": "Aysel 23 Hajiyeva",
+    "tourists": [
+      "Seyitova Bibikhajar",
+      "Zakirova Mohina"
+    ],
+    "xariciSirket": "Easybooking",
+    "adultGuests": "2",
+    "childGuests": "0",
+    "vizaSayi": "",
+    "rezNomresi": "360963",
+    "status": "Bitdi",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "Zahir",
+      "xerci": 93.3,
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "",
+      "elaveXidmetler": ""
+    },
+    "hotels": [
+      {
+        "otelAdi": "Nur Naftalan",
+        "otaqKategoriyasi": "TWIN",
+        "girisTarixi": "0205-07-07",
+        "cixisTarixi": "2025-07-14",
+        "qiymet": 840,
+        "confirmationPath": ""
+      }
+    ],
+    "paymentStatus": "Ödənilib",
+    "paymentDueDate": null,
+    "alish": {
+      "amount": 933.3,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 1028.5,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 0,
+      "beledciXerci": 0,
+      "muzeyXerci": 0,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "paymentDetails": {
+      "hotels": [
+        {
+          "name": "Nur Naftalan",
+          "paid": false,
+          "receiptPath": null
+        }
+      ],
+      "transport": {
+        "paid": false,
+        "receiptPath": null
+      },
+      "detailedCosts": {
+        "paket": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "beledci": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "muzey": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "viza": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "diger": {
+          "paid": false,
+          "receiptPath": null
+        }
+      }
+    },
+    "archivedAt": "2026-01-12T15:22:36.454Z",
+    "archivedBy": "said"
+  },
+  {
+    "satisNo": "1918",
+    "creationTimestamp": "2025-08-03T17:48:21.657Z",
+    "createdBy": "Aysel 23 Hajiyeva",
+    "tourists": [
+      "Kuchrova Nilufar",
+      "Kuckorov Akbarjon"
+    ],
+    "xariciSirket": "Easybooking",
+    "adultGuests": "2",
+    "childGuests": "0",
+    "vizaSayi": "",
+    "rezNomresi": "354196",
+    "status": "Bitdi",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "Zahir",
+      "xerci": 20,
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "",
+      "elaveXidmetler": ""
+    },
+    "hotels": [
+      {
+        "otelAdi": "Port Rivolli",
+        "otaqKategoriyasi": "DBL",
+        "girisTarixi": "2025-07-26",
+        "cixisTarixi": "2025-08-02",
+        "qiymet": 665,
+        "confirmationPath": ""
+      }
+    ],
+    "paymentStatus": "Ödənilib",
+    "paymentDueDate": null,
+    "alish": {
+      "amount": 685,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 899.3,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 0,
+      "beledciXerci": 0,
+      "muzeyXerci": 0,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "paymentDetails": {
+      "hotels": [
+        {
+          "name": "Port Rivolli",
+          "paid": false,
+          "receiptPath": null
+        }
+      ],
+      "transport": {
+        "paid": false,
+        "receiptPath": null
+      },
+      "detailedCosts": {
+        "paket": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "beledci": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "muzey": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "viza": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "diger": {
+          "paid": false,
+          "receiptPath": null
+        }
+      }
+    },
+    "archivedAt": "2026-01-12T15:22:36.454Z",
+    "archivedBy": "said"
+  },
+  {
+    "satisNo": "1920",
+    "creationTimestamp": "2025-08-03T17:51:41.737Z",
+    "createdBy": "Aysel 23 Hajiyeva",
+    "tourists": [
+      "Abduganieva Dildora",
+      "Mustafina Elina"
+    ],
+    "xariciSirket": "Easybooking",
+    "adultGuests": "2",
+    "childGuests": "0",
+    "vizaSayi": "",
+    "rezNomresi": "354907",
+    "status": "Bitdi",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "Zahir",
+      "xerci": 20,
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "",
+      "elaveXidmetler": ""
+    },
+    "hotels": [
+      {
+        "otelAdi": "Port Rivolli",
+        "otaqKategoriyasi": "TWIN",
+        "girisTarixi": "2025-07-26",
+        "cixisTarixi": "2025-08-02",
+        "qiymet": 665,
+        "confirmationPath": ""
+      }
+    ],
+    "paymentStatus": "Ödənilib",
+    "paymentDueDate": null,
+    "alish": {
+      "amount": 685,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 8993,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 0,
+      "beledciXerci": 0,
+      "muzeyXerci": 0,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "paymentDetails": {
+      "hotels": [
+        {
+          "name": "Port Rivolli",
+          "paid": false,
+          "receiptPath": null
+        }
+      ],
+      "transport": {
+        "paid": false,
+        "receiptPath": null
+      },
+      "detailedCosts": {
+        "paket": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "beledci": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "muzey": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "viza": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "diger": {
+          "paid": false,
+          "receiptPath": null
+        }
+      }
+    },
+    "archivedAt": "2026-01-12T15:22:36.454Z",
+    "archivedBy": "said"
+  },
+  {
+    "satisNo": "1921",
+    "creationTimestamp": "2025-08-03T17:53:49.511Z",
+    "createdBy": "Aysel 23 Hajiyeva",
+    "tourists": [
+      "Fayzullaeva Salomotjon",
+      "Sharipova Mekhribajon"
+    ],
+    "xariciSirket": "Easybooking",
+    "adultGuests": "2",
+    "childGuests": "0",
+    "vizaSayi": "",
+    "rezNomresi": "356144",
+    "status": "Bitdi",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "Zahir",
+      "xerci": 20,
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "",
+      "elaveXidmetler": ""
+    },
+    "hotels": [
+      {
+        "otelAdi": "Port Rivolli",
+        "otaqKategoriyasi": "TWIN",
+        "girisTarixi": "2025-07-26",
+        "cixisTarixi": "2025-08-02",
+        "qiymet": 665,
+        "confirmationPath": ""
+      }
+    ],
+    "paymentStatus": "Ödənilib",
+    "paymentDueDate": null,
+    "alish": {
+      "amount": 685,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 899.3,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 0,
+      "beledciXerci": 0,
+      "muzeyXerci": 0,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "paymentDetails": {
+      "hotels": [
+        {
+          "name": "Port Rivolli",
+          "paid": false,
+          "receiptPath": null
+        }
+      ],
+      "transport": {
+        "paid": false,
+        "receiptPath": null
+      },
+      "detailedCosts": {
+        "paket": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "beledci": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "muzey": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "viza": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "diger": {
+          "paid": false,
+          "receiptPath": null
+        }
+      }
+    },
+    "archivedAt": "2026-01-12T15:22:36.454Z",
+    "archivedBy": "said"
+  },
+  {
+    "satisNo": "1932",
+    "creationTimestamp": "2025-08-04T07:14:02.056Z",
+    "createdBy": "Aysel 23 Hajiyeva",
+    "tourists": [
+      "Umarkhodjaeva Kamola",
+      "Yusupova Durdona"
+    ],
+    "xariciSirket": "Easybooking",
+    "adultGuests": "2",
+    "childGuests": "0",
+    "vizaSayi": "",
+    "rezNomresi": "354864",
+    "status": "Bitdi",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "Zahir",
+      "xerci": 25,
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "",
+      "elaveXidmetler": ""
+    },
+    "hotels": [
+      {
+        "otelAdi": "Ganjali Plaza",
+        "otaqKategoriyasi": "TWIN",
+        "girisTarixi": "2025-07-26",
+        "cixisTarixi": "2025-08-02",
+        "qiymet": 700,
+        "confirmationPath": ""
+      }
+    ],
+    "paymentStatus": "Ödənilib",
+    "paymentDueDate": null,
+    "alish": {
+      "amount": 725,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 863.6,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 0,
+      "beledciXerci": 0,
+      "muzeyXerci": 0,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "paymentDetails": {
+      "hotels": [
+        {
+          "name": "Ganjali Plaza",
+          "paid": false,
+          "receiptPath": null
+        }
+      ],
+      "transport": {
+        "paid": false,
+        "receiptPath": null
+      },
+      "detailedCosts": {
+        "paket": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "beledci": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "muzey": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "viza": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "diger": {
+          "paid": false,
+          "receiptPath": null
+        }
+      }
+    },
+    "archivedAt": "2026-01-12T15:22:36.454Z",
+    "archivedBy": "said"
+  },
+  {
+    "satisNo": "1933",
+    "creationTimestamp": "2025-08-04T07:17:41.554Z",
+    "createdBy": "Aysel 23 Hajiyeva",
+    "tourists": [
+      "Kamilova Nilufar",
+      "Vakhabova Dildorakhon",
+      "Kamilova Kamola"
+    ],
+    "xariciSirket": "Easybooking",
+    "adultGuests": "3",
+    "childGuests": "0",
+    "vizaSayi": "",
+    "rezNomresi": "354867",
+    "status": "Bitdi",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "Zahir",
+      "xerci": 25,
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "",
+      "elaveXidmetler": ""
+    },
+    "hotels": [
+      {
+        "otelAdi": "Ganjali Plaza",
+        "otaqKategoriyasi": "TRPL",
+        "girisTarixi": "2025-07-26",
+        "cixisTarixi": "2025-08-02",
+        "qiymet": 840,
+        "confirmationPath": ""
+      }
+    ],
+    "paymentStatus": "Ödənilib",
+    "paymentDueDate": null,
+    "alish": {
+      "amount": 865,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 1040.4,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 0,
+      "beledciXerci": 0,
+      "muzeyXerci": 0,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "paymentDetails": {
+      "hotels": [
+        {
+          "name": "Ganjali Plaza",
+          "paid": false,
+          "receiptPath": null
+        }
+      ],
+      "transport": {
+        "paid": false,
+        "receiptPath": null
+      },
+      "detailedCosts": {
+        "paket": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "beledci": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "muzey": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "viza": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "diger": {
+          "paid": false,
+          "receiptPath": null
+        }
+      }
+    },
+    "archivedAt": "2026-01-12T15:22:36.454Z",
+    "archivedBy": "said"
+  },
+  {
+    "satisNo": "1934",
+    "creationTimestamp": "2025-08-04T07:23:22.756Z",
+    "createdBy": "Aysel 23 Hajiyeva",
+    "tourists": [
+      "Rakhmidjanova Zulfiya",
+      "Mirsagatova Dilnoza",
+      "Fayzullaeva Maryam"
+    ],
+    "xariciSirket": "Easybooking",
+    "adultGuests": "3",
+    "childGuests": "0",
+    "vizaSayi": "",
+    "rezNomresi": "354869",
+    "status": "Bitdi",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "Zahir",
+      "xerci": 25,
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "",
+      "elaveXidmetler": ""
+    },
+    "hotels": [
+      {
+        "otelAdi": "Ganjali Plaza",
+        "otaqKategoriyasi": "TWIN",
+        "girisTarixi": "2025-07-26",
+        "cixisTarixi": "2025-08-02",
+        "qiymet": 700,
+        "confirmationPath": ""
+      }
+    ],
+    "paymentStatus": "Ödənilib",
+    "paymentDueDate": null,
+    "alish": {
+      "amount": 725,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 863.6,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 0,
+      "beledciXerci": 0,
+      "muzeyXerci": 0,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "paymentDetails": {
+      "hotels": [
+        {
+          "name": "Ganjali Plaza",
+          "paid": false,
+          "receiptPath": null
+        }
+      ],
+      "transport": {
+        "paid": false,
+        "receiptPath": null
+      },
+      "detailedCosts": {
+        "paket": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "beledci": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "muzey": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "viza": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "diger": {
+          "paid": false,
+          "receiptPath": null
+        }
+      }
+    },
+    "archivedAt": "2026-01-12T15:22:36.454Z",
+    "archivedBy": "said"
+  },
+  {
+    "satisNo": "1935",
+    "creationTimestamp": "2025-08-04T07:32:14.043Z",
+    "createdBy": "Aysel 23 Hajiyeva",
+    "tourists": [
+      "Makhmudov Bakhrom",
+      "Nusratkhujaeva Nigorakhon"
+    ],
+    "xariciSirket": "Easybooking",
+    "adultGuests": "2",
+    "childGuests": "0",
+    "vizaSayi": "",
+    "rezNomresi": "354869",
+    "status": "Bitdi",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "Zahir",
+      "xerci": 25,
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "",
+      "elaveXidmetler": ""
+    },
+    "hotels": [
+      {
+        "otelAdi": "Ganjali Plaza",
+        "otaqKategoriyasi": "TWIN",
+        "girisTarixi": "2025-07-26",
+        "cixisTarixi": "2025-08-02",
+        "qiymet": 700,
+        "confirmationPath": ""
+      }
+    ],
+    "paymentStatus": "Ödənilib",
+    "paymentDueDate": null,
+    "alish": {
+      "amount": 725,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 863.6,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 0,
+      "beledciXerci": 0,
+      "muzeyXerci": 0,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "paymentDetails": {
+      "hotels": [
+        {
+          "name": "Ganjali Plaza",
+          "paid": false,
+          "receiptPath": null
+        }
+      ],
+      "transport": {
+        "paid": false,
+        "receiptPath": null
+      },
+      "detailedCosts": {
+        "paket": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "beledci": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "muzey": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "viza": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "diger": {
+          "paid": false,
+          "receiptPath": null
+        }
+      }
+    },
+    "archivedAt": "2026-01-12T15:22:36.454Z",
+    "archivedBy": "said"
+  },
+  {
+    "satisNo": "1939",
+    "creationTimestamp": "2025-08-04T07:45:27.726Z",
+    "createdBy": "Aysel 23 Hajiyeva",
+    "tourists": [
+      "Narzieva Nasiba",
+      "Narziev Azamat"
+    ],
+    "xariciSirket": "Easybooking",
+    "adultGuests": "2",
+    "childGuests": "0",
+    "vizaSayi": "",
+    "rezNomresi": "362912",
+    "status": "Bitdi",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "Zahir",
+      "xerci": 40,
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "",
+      "elaveXidmetler": ""
+    },
+    "hotels": [
+      {
+        "otelAdi": "Wyndham Garden",
+        "otaqKategoriyasi": "DBL",
+        "girisTarixi": "2025-07-26",
+        "cixisTarixi": "2025-08-02",
+        "qiymet": 1050,
+        "confirmationPath": ""
+      }
+    ],
+    "paymentStatus": "Ödənilib",
+    "paymentDueDate": null,
+    "alish": {
+      "amount": 1090,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 1178.1,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 0,
+      "beledciXerci": 0,
+      "muzeyXerci": 0,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "paymentDetails": {
+      "hotels": [
+        {
+          "name": "Wyndham Garden",
+          "paid": false,
+          "receiptPath": null
+        }
+      ],
+      "transport": {
+        "paid": false,
+        "receiptPath": null
+      },
+      "detailedCosts": {
+        "paket": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "beledci": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "muzey": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "viza": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "diger": {
+          "paid": false,
+          "receiptPath": null
+        }
+      }
+    },
+    "archivedAt": "2026-01-12T15:22:36.454Z",
+    "archivedBy": "said"
+  },
+  {
+    "satisNo": "1959",
+    "creationTimestamp": "2025-08-04T14:24:38.306Z",
+    "createdBy": "ibrahim",
+    "tourists": [
+      "ZOIROVA MUKHLISA",
+      "UMEDOV SHOKIR"
+    ],
+    "xariciSirket": "Easybooking",
+    "adultGuests": "2",
+    "childGuests": "0",
+    "vizaSayi": "",
+    "rezNomresi": "355259",
+    "status": "Bitdi",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "Binnət",
+      "xerci": 35,
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "",
+      "elaveXidmetler": ""
+    },
+    "hotels": [
+      {
+        "otelAdi": "Gashalti Health Hotel",
+        "otaqKategoriyasi": "Econom King",
+        "girisTarixi": "2025-07-28",
+        "cixisTarixi": "2025-08-04",
+        "qiymet": 1575,
+        "confirmationPath": ""
+      }
+    ],
+    "paymentStatus": "Ödənilib",
+    "paymentDueDate": "",
+    "alish": {
+      "amount": 1610,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 1893.8,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 0,
+      "beledciXerci": 0,
+      "muzeyXerci": 0,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "paymentDetails": {
+      "hotels": [
+        {
+          "name": "Gashalti Health Hotel",
+          "paid": false,
+          "receiptPath": null
+        }
+      ],
+      "transport": {
+        "paid": false,
+        "receiptPath": null
+      },
+      "detailedCosts": {
+        "paket": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "beledci": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "muzey": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "viza": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "diger": {
+          "paid": false,
+          "receiptPath": null
+        }
+      }
+    },
+    "archivedAt": "2026-01-12T15:22:36.454Z",
+    "archivedBy": "said"
+  },
+  {
+    "satisNo": "1961",
+    "creationTimestamp": "2025-08-04T14:39:55.974Z",
+    "createdBy": "ibrahim",
+    "tourists": [
+      "AKHMEDOV FERUZ",
+      "ABDULLAEVA RAKHIMA"
+    ],
+    "xariciSirket": "Easybooking",
+    "adultGuests": "2",
+    "childGuests": "0",
+    "vizaSayi": "",
+    "rezNomresi": "363687",
+    "status": "Bitdi",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "İbrahim ",
+      "xerci": 10,
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "",
+      "elaveXidmetler": ""
+    },
+    "hotels": [
+      {
+        "otelAdi": "Caspian Business Hotel",
+        "otaqKategoriyasi": "Standard DBL",
+        "girisTarixi": "2025-07-28",
+        "cixisTarixi": "2025-07-04",
+        "qiymet": 350,
+        "confirmationPath": ""
+      }
+    ],
+    "paymentStatus": "Ödənilib",
+    "paymentDueDate": null,
+    "alish": {
+      "amount": 360,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 533.8,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 0,
+      "beledciXerci": 0,
+      "muzeyXerci": 0,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "paymentDetails": {
+      "hotels": [
+        {
+          "name": "Caspian Business Hotel",
+          "paid": false,
+          "receiptPath": null
+        }
+      ],
+      "transport": {
+        "paid": false,
+        "receiptPath": null
+      },
+      "detailedCosts": {
+        "paket": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "beledci": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "muzey": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "viza": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "diger": {
+          "paid": false,
+          "receiptPath": null
+        }
+      }
+    },
+    "archivedAt": "2026-01-12T15:22:36.454Z",
+    "archivedBy": "said"
+  },
+  {
+    "satisNo": "1962",
+    "creationTimestamp": "2025-08-04T14:43:49.991Z",
+    "createdBy": "ibrahim",
+    "tourists": [
+      "MENGLIEV ERGASH",
+      "RUZIMATOV ANVARJON"
+    ],
+    "xariciSirket": "Easybooking",
+    "adultGuests": "2",
+    "childGuests": "0",
+    "vizaSayi": "",
+    "rezNomresi": "363716",
+    "status": "Bitdi",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "",
+      "xerci": 0,
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "",
+      "elaveXidmetler": ""
+    },
+    "hotels": [
+      {
+        "otelAdi": "GOZEL NAFTALAN (MEDICAL STANDARD PACKAGE)",
+        "otaqKategoriyasi": "Standard TWIN",
+        "girisTarixi": "2025-07-28",
+        "cixisTarixi": "2025-08-04",
+        "qiymet": 630,
+        "confirmationPath": ""
+      }
+    ],
+    "paymentStatus": "Ödənilib",
+    "paymentDueDate": null,
+    "alish": {
+      "amount": 630,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 907.8,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 0,
+      "beledciXerci": 0,
+      "muzeyXerci": 0,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "paymentDetails": {
+      "hotels": [
+        {
+          "name": "GOZEL NAFTALAN (MEDICAL STANDARD PACKAGE)",
+          "paid": false,
+          "receiptPath": null
+        }
+      ],
+      "transport": {
+        "paid": false,
+        "receiptPath": null
+      },
+      "detailedCosts": {
+        "paket": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "beledci": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "muzey": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "viza": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "diger": {
+          "paid": false,
+          "receiptPath": null
+        }
+      }
+    },
+    "archivedAt": "2026-01-12T15:22:36.454Z",
+    "archivedBy": "said"
+  },
+  {
+    "satisNo": "1997",
+    "creationTimestamp": "2026-01-03T18:10:56.288Z",
+    "createdBy": "ibrahim",
+    "tourists": [
+      "KODIROVA IRODAKHON",
+      "IBRAGIMOVA NARGIZAKHON"
+    ],
+    "xariciSirket": "Easybooking",
+    "adultGuests": "2",
+    "childGuests": "0",
+    "vizaSayi": "",
+    "rezNomresi": "374004",
+    "status": "Davam edir",
+    "qeyd": "",
+    "transport": {
+      "surucuMelumatlari": "Chinar Transport ",
+      "xerci": 32,
+      "odenisKartMelumatlari": "",
+      "turTevsiri": "Airport \nHotel \nAirport",
+      "elaveXidmetler": ""
+    },
+    "hotels": [
+      {
+        "otelAdi": "Ramada By Wyndham Baku",
+        "otaqKategoriyasi": "",
+        "girisTarixi": "2026-01-03",
+        "cixisTarixi": "2026-01-10",
+        "qiymet": 490,
+        "confirmationPath": ""
+      }
+    ],
+    "paymentStatus": "Ödənilməyib",
+    "paymentDueDate": "",
+    "alish": {
+      "amount": 522,
+      "currency": "AZN"
+    },
+    "satish": {
+      "amount": 0,
+      "currency": "AZN"
+    },
+    "detailedCosts": {
+      "paketXerci": 0,
+      "beledciXerci": 0,
+      "muzeyXerci": 0,
+      "vizaXerci": 0,
+      "digerXercler": 0
+    },
+    "paymentDetails": {
+      "hotels": [
+        {
+          "name": "Ramada By Wyndham Baku",
+          "paid": false,
+          "receiptPath": null
+        }
+      ],
+      "transport": {
+        "paid": false,
+        "receiptPath": null
+      },
+      "detailedCosts": {
+        "paket": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "beledci": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "muzey": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "viza": {
+          "paid": false,
+          "receiptPath": null
+        },
+        "diger": {
+          "paid": false,
+          "receiptPath": null
+        }
+      }
+    },
+    "archivedAt": "2026-01-12T15:22:45.101Z",
+    "archivedBy": "said"
+  }
+]
