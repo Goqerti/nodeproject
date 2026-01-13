@@ -1,0 +1,441 @@
+{"timestamp":"2025-07-10T19:13:28.466Z","user":"Səid","role":"owner","action":"CREATE_USER","details":{"newUser":"vladimr","role":"sales_manager"},"ip":"::1"}
+{"timestamp":"2025-07-10T20:11:08.912Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-07-10T20:11:15.260Z","user":"Səid","role":"owner","action":"LOGOUT","details":{},"ip":"::1"}
+{"timestamp":"2025-07-10T20:56:11.434Z","user":"Şirvan","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-07-10T21:00:12.945Z","user":"Şirvan","role":"sales_manager","action":"LOGOUT","details":{},"ip":"::1"}
+{"timestamp":"2025-07-10T21:01:01.718Z","user":"Şirvan","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-07-10T23:29:27.072Z","user":"Şirvan","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-07-10T23:32:31.924Z","user":"Şirvan","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-07-10T23:39:43.859Z","user":"Şirvan","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-07-10T23:42:55.871Z","user":"Şirvan","role":"sales_manager","action":"LOGOUT","details":{},"ip":"::1"}
+{"timestamp":"2025-07-10T23:42:59.116Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-07-10T23:43:21.384Z","user":"Səid","role":"owner","action":"LOGOUT","details":{},"ip":"::1"}
+{"timestamp":"2025-07-10T23:43:25.586Z","user":"Şirvan","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-07-11T01:33:26.887Z","user":"Şirvan","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-07-11T01:36:26.426Z","user":"Şirvan","role":"sales_manager","action":"LOGOUT","details":{},"ip":"::1"}
+{"timestamp":"2025-07-11T01:36:28.591Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-07-11T11:27:16.171Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-07-11T11:35:13.390Z","user":"Səid","role":"owner","action":"CREATE_ORDER","details":{"satisNo":"1818","tourist":"sa"},"ip":"::1"}
+{"timestamp":"2025-07-11T11:37:45.716Z","user":"Səid","role":"owner","action":"LOGOUT","details":{},"ip":"::1"}
+{"timestamp":"2025-07-11T11:39:22.919Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-07-11T11:43:19.434Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-07-11T12:06:55.037Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-07-11T12:12:55.973Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-07-11T12:13:08.523Z","user":"Səid","role":"owner","action":"LOGOUT","details":{},"ip":"::1"}
+{"timestamp":"2025-07-11T12:13:13.823Z","user":"Şirvan","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-07-11T12:14:28.023Z","user":"Şirvan","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-07-11T12:15:32.047Z","user":"Şirvan","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-07-11T12:15:53.937Z","user":"Şirvan","role":"sales_manager","action":"CREATE_TRANSPORT_PACKAGE","details":{"driver":"jj","destination":"j"},"ip":"::1"}
+{"timestamp":"2025-07-11T12:38:15.209Z","user":"Şirvan","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-07-11T12:40:34.593Z","user":"Şirvan","role":"sales_manager","action":"LOGOUT","details":{},"ip":"::1"}
+{"timestamp":"2025-07-11T12:41:01.082Z","user":"Səid","role":"owner","action":"UPDATE_ALL_PERMISSIONS_BY_PASSWORD","details":{"details":"İcazələr parolla yeniləndi."},"ip":"::1"}
+{"timestamp":"2025-07-11T12:41:06.686Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-07-11T12:41:13.711Z","user":"Səid","role":"owner","action":"LOGOUT","details":{},"ip":"::1"}
+{"timestamp":"2025-07-11T12:41:17.828Z","user":"Nərmin Axundova","role":"finance","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-07-11T12:42:08.663Z","user":"Nərmin Axundova","role":"finance","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-07-11T12:42:14.613Z","user":"Nərmin Axundova","role":"finance","action":"LOGOUT","details":{},"ip":"::1"}
+{"timestamp":"2025-07-11T12:42:18.226Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-07-11T12:42:21.064Z","user":"Səid","role":"owner","action":"LOGOUT","details":{},"ip":"::1"}
+{"timestamp":"2025-11-18T09:14:48.330Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-11-24T07:14:04.786Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-11-24T07:19:43.961Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-11-24T07:21:48.019Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-11-24T07:31:28.771Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-11-24T07:32:26.704Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-11-24T08:08:10.817Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-11-24T08:13:31.447Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-11-24T08:24:48.321Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-11-24T08:25:39.913Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-11-24T08:30:16.484Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2025-11-24T10:06:56.063Z","user":"Səid","role":"owner","action":"CREATE_USER","details":{"newUser":"aysel","role":"sales_manager"},"ip":"185.93.91.88"}
+{"timestamp":"2025-11-24T10:07:12.467Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.88"}
+{"timestamp":"2025-11-24T10:07:14.675Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.88"}
+{"timestamp":"2025-11-24T10:07:16.157Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGOUT","details":{},"ip":"185.93.91.88"}
+{"timestamp":"2025-11-24T10:07:25.642Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.88"}
+{"timestamp":"2025-11-24T12:28:41.548Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.88"}
+{"timestamp":"2025-11-24T12:44:13.681Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1972","tourist":"."},"ip":"185.93.91.88"}
+{"timestamp":"2025-11-24T13:02:34.284Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1973","tourist":"MATNIYAZOV AMANBAY"},"ip":"185.93.91.88"}
+{"timestamp":"2025-11-24T13:18:26.503Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1974","tourist":"MANSUROV TEMURDZHON"},"ip":"185.93.91.88"}
+{"timestamp":"2025-11-24T13:58:17.152Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1975","tourist":"NURILLAEVA DINORA"},"ip":"185.93.91.88"}
+{"timestamp":"2025-11-24T14:14:59.229Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1976","tourist":"SHUKUROVA AYSHA"},"ip":"185.93.91.88"}
+{"timestamp":"2025-11-24T14:24:12.921Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1977","tourist":"GAZIEVA ZAMIRA"},"ip":"185.93.91.88"}
+{"timestamp":"2025-11-24T16:43:23.530Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"5.191.104.246"}
+{"timestamp":"2025-11-24T16:43:27.887Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"188.253.216.137"}
+{"timestamp":"2025-11-24T17:10:32.992Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1972","changes":"\nDəyişikliklər:\n- Turistlər: '., ., ., ., ., .' -> 'Хасанов Абдувосит, Ташполатов Одилжон, Хасанова Элмира, Мансурова Нилуфар, Атакулова Гулноза, Тохтабаева Муборак'"},"ip":"188.253.216.137"}
+{"timestamp":"2025-11-24T19:12:30.095Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"94.29.30.25"}
+{"timestamp":"2025-11-25T12:01:30.391Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.88"}
+{"timestamp":"2025-11-25T13:42:28.761Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.88"}
+{"timestamp":"2025-11-25T13:46:42.066Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1978","tourist":"MATKARIMOVA MALIKAKHON"},"ip":"185.93.91.88"}
+{"timestamp":"2025-11-26T10:09:38.722Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.88"}
+{"timestamp":"2025-11-26T10:12:42.809Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.88"}
+{"timestamp":"2025-11-26T12:53:25.616Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.88"}
+{"timestamp":"2025-11-27T03:51:21.171Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T05:39:44.580Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1977","changes":"\nDəyişikliklər:\n- Alış qiyməti: '1434.00 AZN' -> '1468.00 AZN'"},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T05:40:40.835Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1977","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T05:59:45.595Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1979","tourist":"SAPAEV RASUL"},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T11:10:58.018Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1973","changes":"\nDəyişikliklər:\n- Alış qiyməti: '2167.00 AZN' -> '2207.00 AZN'"},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T11:12:41.055Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1973","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T11:13:30.990Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1973","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T11:16:31.402Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1975","changes":"\nDəyişikliklər:\n- Alış qiyməti: '290.00 AZN' -> '288.00 AZN'"},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T11:17:10.318Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1975","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T11:19:10.082Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1974","changes":"\nDəyişikliklər:\n- Alış qiyməti: '2760.00 AZN' -> '2700.00 AZN'"},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T11:27:00.509Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1974","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T11:28:09.492Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1977","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T11:28:30.085Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T11:29:09.194Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1974","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T11:30:09.886Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1977","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T11:30:53.608Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T11:48:24.434Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":"\nDəyişikliklər:\n- Alış qiyməti: '1154.00 AZN' -> '1181.00 AZN'"},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T11:52:41.712Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T11:55:09.479Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T11:56:18.575Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T11:57:23.531Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1978","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T11:58:13.317Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1972","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T11:59:15.756Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1979","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T12:00:21.680Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1977","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T12:00:29.177Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1974","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T12:04:36.474Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1979","changes":"\nDəyişikliklər:\n- Alış qiyməti: '386.28 AZN' -> '386.00 AZN'"},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T12:05:30.949Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1973","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T12:05:38.960Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1975","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T12:08:54.490Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1973","changes":"\nDəyişikliklər:\n- Alış qiyməti: '2207.00 AZN' -> '2267.00 AZN'"},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T12:09:21.978Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1973","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-27T13:15:36.136Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-28T15:43:40.993Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-28T15:44:43.579Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1974","changes":"\nDəyişikliklər:\n- Alış qiyməti: '2700.00 AZN' -> '2880.00 AZN'\n- Satış qiyməti: '2865.00 AZN' -> '3375.00 AZN'"},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-28T15:44:57.551Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1974","changes":"\nDəyişikliklər:\n- Alış qiyməti: '2880.00 AZN' -> '2889.00 AZN'"},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-28T15:46:20.215Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1974","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-28T17:21:01.318Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1979","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-28T17:21:01.569Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1979","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-28T17:38:29.745Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-28T19:28:27.374Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1979","changes":"\nDəyişikliklər:\n- Alış qiyməti: '386.00 AZN' -> '478.00 AZN'\n- Satış qiyməti: '413.00 AZN' -> '507.00 AZN'"},"ip":"185.93.91.79"}
+{"timestamp":"2025-11-29T04:15:52.535Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"37.61.118.103"}
+{"timestamp":"2025-11-29T04:16:56.323Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1973","changes":"\nDəyişikliklər:\n- Status: 'Davam edir' -> 'Bitdi'"},"ip":"37.61.127.23"}
+{"timestamp":"2025-11-29T04:17:48.402Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1975","changes":""},"ip":"37.61.127.23"}
+{"timestamp":"2025-11-29T04:19:27.123Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1971","changes":"\nDəyişikliklər:\n- Status: 'Davam edir' -> 'Bitdi'\n- Ödəniş statusu: 'Ödənilməyib' -> 'Ödənilib'"},"ip":"37.61.118.103"}
+{"timestamp":"2025-11-29T04:54:57.349Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1971","changes":"\nDəyişikliklər:\n- Satış qiyməti: '4080.00 AZN' -> '4200.00 AZN'"},"ip":"37.61.118.103"}
+{"timestamp":"2025-11-29T05:24:19.048Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1971","changes":""},"ip":"37.61.127.23"}
+{"timestamp":"2025-11-29T05:30:52.477Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1971","changes":""},"ip":"37.61.127.23"}
+{"timestamp":"2025-11-29T06:00:18.483Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1973","changes":""},"ip":"37.61.127.23"}
+{"timestamp":"2025-11-29T06:09:45.694Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1975","changes":""},"ip":"37.61.127.23"}
+{"timestamp":"2025-11-29T06:18:05.364Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1974","changes":""},"ip":"37.61.127.23"}
+{"timestamp":"2025-11-29T06:22:48.736Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1977","changes":""},"ip":"37.61.118.103"}
+{"timestamp":"2025-11-29T06:29:29.552Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":"\nDəyişikliklər:\n- Satış qiyməti: '1190.00 AZN' -> '1275.00 AZN'"},"ip":"37.61.127.23"}
+{"timestamp":"2025-11-29T06:38:15.428Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":"\nDəyişikliklər:\n- Satış qiyməti: '1275.00 AZN' -> '1190.00 AZN'"},"ip":"37.61.127.23"}
+{"timestamp":"2025-11-29T06:50:16.157Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1979","changes":""},"ip":"37.61.127.23"}
+{"timestamp":"2025-11-29T06:51:00.423Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1979","changes":"\nDəyişikliklər:\n- Alış qiyməti: '478.00 AZN' -> '480.00 AZN'"},"ip":"37.61.127.23"}
+{"timestamp":"2025-11-29T07:36:50.427Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1978","changes":""},"ip":"37.61.118.103"}
+{"timestamp":"2025-11-29T08:58:46.324Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1975","changes":""},"ip":"37.61.127.23"}
+{"timestamp":"2025-12-01T11:29:51.217Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.82"}
+{"timestamp":"2025-12-01T11:34:05.213Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.82"}
+{"timestamp":"2025-12-01T11:34:56.516Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGOUT","details":{},"ip":"185.93.91.82"}
+{"timestamp":"2025-12-01T11:35:27.282Z","user":"Səid","role":"owner","action":"UPDATE_ALL_PERMISSIONS_BY_PASSWORD","details":{"details":"İcazələr parolla yeniləndi."},"ip":"185.93.91.82"}
+{"timestamp":"2025-12-01T11:35:46.936Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.82"}
+{"timestamp":"2025-12-01T16:33:33.468Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.88"}
+{"timestamp":"2025-12-01T16:38:56.826Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1972","changes":""},"ip":"185.93.91.88"}
+{"timestamp":"2025-12-01T16:52:13.852Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":""},"ip":"185.93.91.88"}
+{"timestamp":"2025-12-01T16:52:13.880Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":""},"ip":"185.93.91.88"}
+{"timestamp":"2025-12-02T07:31:58.712Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.86"}
+{"timestamp":"2025-12-02T11:39:32.577Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":""},"ip":"185.93.91.82"}
+{"timestamp":"2025-12-02T13:28:03.541Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1980","tourist":"RUSTAMOVA VAZIRAXON"},"ip":"185.93.91.69"}
+{"timestamp":"2025-12-02T13:28:53.388Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1980","changes":""},"ip":"185.93.91.69"}
+{"timestamp":"2025-12-02T15:17:36.851Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"37.61.113.101"}
+{"timestamp":"2025-12-02T15:21:29.931Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1980","changes":""},"ip":"37.61.122.101"}
+{"timestamp":"2025-12-02T15:38:48.844Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1972","changes":""},"ip":"37.61.122.101"}
+{"timestamp":"2025-12-02T19:06:54.628Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"5.44.39.161"}
+{"timestamp":"2025-12-02T19:08:02.987Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"5.44.39.161"}
+{"timestamp":"2025-12-03T06:59:43.981Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.69"}
+{"timestamp":"2025-12-04T05:30:22.764Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.69"}
+{"timestamp":"2025-12-04T05:31:41.762Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1974","changes":""},"ip":"185.93.91.69"}
+{"timestamp":"2025-12-04T05:38:45.596Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1974","changes":""},"ip":"185.93.91.69"}
+{"timestamp":"2025-12-04T06:36:22.449Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.69"}
+{"timestamp":"2025-12-04T10:08:00.943Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.69"}
+{"timestamp":"2025-12-04T10:38:09.912Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1972","changes":""},"ip":"185.93.91.69"}
+{"timestamp":"2025-12-04T13:49:13.928Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1979","changes":""},"ip":"185.93.91.85"}
+{"timestamp":"2025-12-04T14:15:10.466Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1973","changes":""},"ip":"185.93.91.85"}
+{"timestamp":"2025-12-04T14:24:37.845Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1977","changes":""},"ip":"185.93.91.85"}
+{"timestamp":"2025-12-04T14:31:59.028Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1972","changes":""},"ip":"185.93.91.85"}
+{"timestamp":"2025-12-04T14:54:04.476Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1979","changes":""},"ip":"185.93.91.85"}
+{"timestamp":"2025-12-04T14:56:59.376Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1979","changes":"\nDəyişikliklər:\n- Ödəniş statusu: 'Ödənilməyib' -> 'Ödənilib'"},"ip":"185.93.91.85"}
+{"timestamp":"2025-12-04T14:57:38.230Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":"\nDəyişikliklər:\n- Ödəniş statusu: 'Ödənilməyib' -> 'Ödənilib'"},"ip":"185.93.91.85"}
+{"timestamp":"2025-12-04T14:59:25.333Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":""},"ip":"185.93.91.85"}
+{"timestamp":"2025-12-04T14:59:33.709Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1979","changes":""},"ip":"185.93.91.85"}
+{"timestamp":"2025-12-04T15:00:23.278Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":""},"ip":"185.93.91.85"}
+{"timestamp":"2025-12-04T15:00:45.889Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1979","changes":""},"ip":"185.93.91.85"}
+{"timestamp":"2025-12-04T15:01:06.772Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":""},"ip":"185.93.91.85"}
+{"timestamp":"2025-12-04T15:01:18.260Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1979","changes":""},"ip":"185.93.91.85"}
+{"timestamp":"2025-12-04T15:03:53.917Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":"\nDəyişikliklər:\n- Satış qiyməti: '1190.00 AZN' -> '1198.00 AZN'"},"ip":"185.93.91.85"}
+{"timestamp":"2025-12-04T15:31:40.249Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGOUT","details":{},"ip":"185.93.91.85"}
+{"timestamp":"2025-12-04T15:32:08.677Z","user":"Owner (Sessiyasız)","role":"owner","action":"UPDATE_USER_BY_PASSWORD","details":{"targetUser":"ceyhun"},"ip":"185.93.91.85"}
+{"timestamp":"2025-12-04T15:32:10.207Z","user":"Səid","role":"owner","action":"UPDATE_ALL_PERMISSIONS_BY_PASSWORD","details":{"details":"İcazələr parolla yeniləndi."},"ip":"185.93.91.85"}
+{"timestamp":"2025-12-04T15:33:08.477Z","user":"Ceyhun Sadayev","role":"director","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.85"}
+{"timestamp":"2025-12-04T15:44:50.553Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1973","changes":""},"ip":"185.93.91.85"}
+{"timestamp":"2025-12-04T15:50:17.075Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.85"}
+{"timestamp":"2025-12-04T16:31:20.067Z","user":"Ceyhun Sadayev","role":"director","action":"LOGOUT","details":{},"ip":"185.93.91.85"}
+{"timestamp":"2025-12-05T09:40:50.998Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.84"}
+{"timestamp":"2025-12-05T09:47:27.394Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.84"}
+{"timestamp":"2025-12-05T09:50:41.958Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1972","changes":""},"ip":"185.93.91.84"}
+{"timestamp":"2025-12-06T07:53:34.822Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"37.61.117.236"}
+{"timestamp":"2025-12-06T20:17:35.798Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.79"}
+{"timestamp":"2025-12-06T20:27:57.425Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1971","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-12-06T20:28:23.163Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1971","changes":"\nDəyişikliklər:\n- Satış qiyməti: '4200.00 AZN' -> '4320.00 AZN'"},"ip":"185.93.91.79"}
+{"timestamp":"2025-12-06T20:33:06.223Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1971","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-12-06T20:55:08.698Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1971","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-12-06T20:55:08.733Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1971","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-12-06T21:07:02.121Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-12-06T21:07:26.292Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1979","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-12-06T21:20:46.727Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1973","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-12-06T21:22:52.360Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1975","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-12-06T21:27:43.455Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1975","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-12-06T21:30:07.109Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1974","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-12-06T21:32:49.514Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1977","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-12-06T21:32:49.539Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1977","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-12-06T21:32:49.589Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1977","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-12-06T21:32:49.696Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1977","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-12-06T21:32:49.716Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1977","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-12-06T21:32:49.733Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1977","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-12-06T21:35:10.894Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-12-06T21:42:18.597Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1978","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-12-06T21:43:46.278Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1980","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-12-06T21:45:30.733Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1972","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-12-06T21:48:14.963Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1979","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-12-06T22:03:25.891Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1979","changes":""},"ip":"185.93.91.79"}
+{"timestamp":"2025-12-07T01:58:33.181Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":""},"ip":"37.61.126.16"}
+{"timestamp":"2025-12-07T03:55:23.440Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1981","tourist":"YUSUPOV SAFARBOY"},"ip":"37.61.120.103"}
+{"timestamp":"2025-12-07T05:40:27.708Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"37.61.120.103"}
+{"timestamp":"2025-12-07T05:42:18.744Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1973","changes":""},"ip":"37.61.120.103"}
+{"timestamp":"2025-12-07T06:07:06.466Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1971","changes":""},"ip":"37.61.115.103"}
+{"timestamp":"2025-12-07T06:23:53.296Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1973","changes":""},"ip":"37.61.120.103"}
+{"timestamp":"2025-12-07T06:28:50.159Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1973","changes":""},"ip":"37.61.120.103"}
+{"timestamp":"2025-12-07T06:30:50.316Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1973","changes":""},"ip":"37.61.115.103"}
+{"timestamp":"2025-12-07T06:33:59.247Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1975","changes":""},"ip":"37.61.115.103"}
+{"timestamp":"2025-12-07T06:44:47.742Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1973","changes":""},"ip":"37.61.120.103"}
+{"timestamp":"2025-12-07T06:47:58.984Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1973","changes":""},"ip":"37.61.120.103"}
+{"timestamp":"2025-12-07T06:48:44.309Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1975","changes":""},"ip":"37.61.120.103"}
+{"timestamp":"2025-12-07T06:50:03.249Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1974","changes":""},"ip":"37.61.120.103"}
+{"timestamp":"2025-12-07T06:56:18.686Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1977","changes":""},"ip":"37.61.120.103"}
+{"timestamp":"2025-12-07T06:59:42.592Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":""},"ip":"37.61.115.103"}
+{"timestamp":"2025-12-07T07:02:44.499Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1978","changes":""},"ip":"37.61.115.103"}
+{"timestamp":"2025-12-07T07:07:17.900Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1980","changes":""},"ip":"37.61.115.103"}
+{"timestamp":"2025-12-07T07:09:15.904Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1972","changes":""},"ip":"37.61.120.103"}
+{"timestamp":"2025-12-07T07:10:25.696Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1972","changes":""},"ip":"37.61.115.103"}
+{"timestamp":"2025-12-07T07:33:50.663Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1981","changes":""},"ip":"37.61.120.103"}
+{"timestamp":"2025-12-07T07:37:56.769Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1979","changes":""},"ip":"37.61.115.103"}
+{"timestamp":"2025-12-08T06:53:09.001Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.87"}
+{"timestamp":"2025-12-09T05:40:10.978Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.71"}
+{"timestamp":"2025-12-09T05:46:57.380Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1982","tourist":"YUSUPOV SAFARBOY"},"ip":"185.93.91.71"}
+{"timestamp":"2025-12-09T05:47:08.695Z","user":"ibrahim","role":"sales_manager","action":"DELETE_ORDER","details":{"satisNo":"1981","tourist":"YUSUPOV SAFARBOY"},"ip":"185.93.91.71"}
+{"timestamp":"2025-12-09T05:51:49.713Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1983","tourist":"KURBANOV SHUKHRAT"},"ip":"185.93.91.71"}
+{"timestamp":"2025-12-09T07:56:39.729Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1982","changes":""},"ip":"185.93.91.71"}
+{"timestamp":"2025-12-09T08:02:34.231Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1983","changes":""},"ip":"185.93.91.71"}
+{"timestamp":"2025-12-09T08:34:28.839Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.71"}
+{"timestamp":"2025-12-09T08:41:08.563Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1982","changes":""},"ip":"185.93.91.71"}
+{"timestamp":"2025-12-10T09:08:06.836Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.64"}
+{"timestamp":"2025-12-11T07:19:01.809Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.64"}
+{"timestamp":"2025-12-11T09:11:28.929Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.64"}
+{"timestamp":"2025-12-11T12:05:48.620Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1984","tourist":"YULCHIEV KAKHKHOR"},"ip":"185.93.91.64"}
+{"timestamp":"2025-12-11T12:09:25.727Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1984","changes":"\nDəyişikliklər:\n- Turistlər: 'YULCHIEV KAKHKHOR, KHODJAEV SIDIK' -> 'YULCHIEV KAKHKHOR, KHODJAEV SIDIK, DJURAEV KHABIBULLA, AKHMADJONOV PARVIZJON, IBRAGIMOVA EKHTIYOTKHON, KHUSENOVA DILFUZA, IBROKHIMOVA MOKHINURKHON'\n- Rez. nömrəsi: '373078' -> '373078 / 373079 / 373082'\n- Alış qiyməti: '610.00 AZN' -> '1885.00 AZN'\n- Satış qiyməti: '0.00 AZN' -> '2210.00 AZN'"},"ip":"185.93.91.64"}
+{"timestamp":"2025-12-11T12:09:52.547Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1979","changes":""},"ip":"185.93.91.64"}
+{"timestamp":"2025-12-11T12:10:07.216Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1982","changes":""},"ip":"185.93.91.64"}
+{"timestamp":"2025-12-11T12:10:26.239Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1984","changes":""},"ip":"185.93.91.64"}
+{"timestamp":"2025-12-11T12:11:23.482Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1984","changes":""},"ip":"185.93.91.64"}
+{"timestamp":"2025-12-11T12:15:34.176Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1984","changes":""},"ip":"185.93.91.64"}
+{"timestamp":"2025-12-11T13:02:29.805Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1972","changes":""},"ip":"185.93.91.64"}
+{"timestamp":"2025-12-11T13:02:37.103Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1982","changes":""},"ip":"185.93.91.64"}
+{"timestamp":"2025-12-12T11:00:20.692Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"5.191.125.151"}
+{"timestamp":"2025-12-12T11:02:33.016Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1983","changes":""},"ip":"5.191.125.151"}
+{"timestamp":"2025-12-12T11:06:09.303Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1984","changes":""},"ip":"5.191.125.151"}
+{"timestamp":"2025-12-12T11:34:25.924Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.66"}
+{"timestamp":"2025-12-12T11:39:40.964Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1985","tourist":"KARIMOV ABDULKHAY"},"ip":"185.93.91.66"}
+{"timestamp":"2025-12-12T11:41:31.142Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1985","changes":""},"ip":"185.93.91.66"}
+{"timestamp":"2025-12-12T11:52:59.344Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.66"}
+{"timestamp":"2025-12-12T15:25:52.436Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1972","changes":"\nDəyişikliklər:\n- Satış qiyməti: '847.00 AZN' -> '850.00 AZN'"},"ip":"185.93.91.66"}
+{"timestamp":"2025-12-12T15:29:57.583Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1979","changes":""},"ip":"185.93.91.66"}
+{"timestamp":"2025-12-12T15:31:34.081Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":""},"ip":"185.93.91.66"}
+{"timestamp":"2025-12-12T15:31:50.052Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1973","changes":""},"ip":"185.93.91.66"}
+{"timestamp":"2025-12-12T15:32:07.748Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":""},"ip":"185.93.91.66"}
+{"timestamp":"2025-12-12T16:31:16.195Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.66"}
+{"timestamp":"2025-12-13T04:20:56.684Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1986","tourist":"KHOLDAROVA IRODAKHON"},"ip":"185.93.91.66"}
+{"timestamp":"2025-12-13T04:21:15.286Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1985","changes":""},"ip":"185.93.91.66"}
+{"timestamp":"2025-12-13T07:55:52.271Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1986","changes":""},"ip":"185.93.91.66"}
+{"timestamp":"2025-12-13T16:12:52.216Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.66"}
+{"timestamp":"2025-12-13T16:16:22.465Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1979","changes":""},"ip":"185.93.91.66"}
+{"timestamp":"2025-12-13T16:18:53.596Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1983","changes":""},"ip":"185.93.91.66"}
+{"timestamp":"2025-12-13T21:56:24.557Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"188.253.213.252"}
+{"timestamp":"2025-12-15T05:29:39.101Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.73"}
+{"timestamp":"2025-12-15T06:55:21.803Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1984","changes":""},"ip":"185.93.91.73"}
+{"timestamp":"2025-12-15T12:33:06.417Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.73"}
+{"timestamp":"2025-12-16T18:32:53.059Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"37.61.116.16"}
+{"timestamp":"2025-12-16T18:33:16.777Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"37.61.116.16"}
+{"timestamp":"2025-12-17T07:12:45.193Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-17T08:39:05.819Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-17T08:50:50.335Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1982","changes":""},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-17T08:51:37.118Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1984","changes":""},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-17T09:00:51.365Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1984","changes":""},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-17T09:15:42.372Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1984","changes":""},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-17T09:16:42.669Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1985","changes":""},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-17T09:16:53.821Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1986","changes":""},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-17T09:19:11.058Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1985","changes":""},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-17T09:21:26.658Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1986","changes":""},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-17T09:22:55.717Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1983","changes":""},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-17T09:23:07.045Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1986","changes":""},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-17T09:23:19.801Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1985","changes":""},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-17T09:24:17.823Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1985","changes":""},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-17T09:28:10.746Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1983","changes":""},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-17T09:43:49.331Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1974","changes":""},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-17T10:01:32.653Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-17T10:01:43.735Z","user":"Səid","role":"owner","action":"LOGOUT","details":{},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-17T10:01:48.637Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-17T10:17:55.428Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-17T10:23:52.320Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-17T11:06:29.964Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-17T11:18:09.030Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-17T12:33:56.998Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1987","tourist":"ATABEKOVA IRODA"},"ip":"185.93.91.67"}
+{"timestamp":"2025-12-17T12:54:00.300Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1987","changes":"\nDəyişikliklər:\n- Rez. nömrəsi: '373253 ' -> ' 373253'"},"ip":"185.93.91.67"}
+{"timestamp":"2025-12-17T13:37:51.931Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1988","tourist":"BARATOV MAKHMUD"},"ip":"185.93.91.67"}
+{"timestamp":"2025-12-18T18:55:20.205Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"31.171.59.247"}
+{"timestamp":"2025-12-18T18:59:00.863Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1977","changes":""},"ip":"31.171.59.247"}
+{"timestamp":"2025-12-18T19:24:18.858Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1989","tourist":"GULOMKODIROV UMIDJON"},"ip":"31.171.59.247"}
+{"timestamp":"2025-12-18T19:31:37.246Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1990","tourist":"BARATOV MAKHMUD"},"ip":"31.171.59.247"}
+{"timestamp":"2025-12-18T19:35:19.409Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1990","changes":"\nDəyişikliklər:\n- Alış qiyməti: '2119.00 AZN' -> '1848.00 AZN'"},"ip":"31.171.59.247"}
+{"timestamp":"2025-12-18T19:36:18.384Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1990","changes":"\nDəyişikliklər:\n- Alış qiyməti: '1848.00 AZN' -> '1648.00 AZN'"},"ip":"31.171.59.247"}
+{"timestamp":"2025-12-18T19:54:57.213Z","user":"ibrahim","role":"sales_manager","action":"DELETE_ORDER","details":{"satisNo":"1988","tourist":"BARATOV MAKHMUD"},"ip":"31.171.59.247"}
+{"timestamp":"2025-12-19T08:30:51.738Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.67"}
+{"timestamp":"2025-12-19T08:32:08.217Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1989","changes":""},"ip":"185.93.91.67"}
+{"timestamp":"2025-12-19T08:36:21.098Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1991","tourist":"GAFUROVA MALIKA"},"ip":"185.93.91.67"}
+{"timestamp":"2025-12-19T08:36:34.944Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1989","changes":""},"ip":"185.93.91.67"}
+{"timestamp":"2025-12-19T09:27:10.451Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1990","changes":""},"ip":"185.93.91.67"}
+{"timestamp":"2025-12-19T09:52:53.612Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1979","changes":"\nDəyişikliklər:\n- Status: 'Davam edir' -> 'Bitdi'"},"ip":"185.93.91.67"}
+{"timestamp":"2025-12-19T13:53:13.180Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.76"}
+{"timestamp":"2025-12-19T17:39:33.949Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1984","changes":""},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-20T12:18:12.712Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"213.172.90.210"}
+{"timestamp":"2025-12-20T22:54:22.699Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"37.32.71.23"}
+{"timestamp":"2025-12-20T23:22:25.787Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"37.32.71.23"}
+{"timestamp":"2025-12-20T23:22:49.653Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1989","changes":""},"ip":"37.32.71.23"}
+{"timestamp":"2025-12-20T23:43:16.270Z","user":"ibrahim","role":"sales_manager","action":"LOGOUT","details":{},"ip":"37.32.71.23"}
+{"timestamp":"2025-12-21T16:36:43.495Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"212.47.128.224"}
+{"timestamp":"2025-12-21T19:47:12.539Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"212.47.142.7"}
+{"timestamp":"2025-12-22T07:18:27.910Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.73"}
+{"timestamp":"2025-12-22T21:36:18.832Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.69"}
+{"timestamp":"2025-12-23T10:04:21.793Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.74"}
+{"timestamp":"2025-12-23T10:09:05.658Z","user":"Aysel Hacizade","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1992","tourist":"Mukhammedova Mukarram"},"ip":"185.93.91.74"}
+{"timestamp":"2025-12-24T12:26:42.515Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.74"}
+{"timestamp":"2025-12-24T14:57:17.829Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.74"}
+{"timestamp":"2025-12-25T06:31:36.563Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.74"}
+{"timestamp":"2025-12-26T06:51:47.617Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-26T09:38:47.391Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-26T09:45:55.605Z","user":"Aysel Hacizade","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1993","tourist":"GULOMKODIROV UMIDJON"},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-26T09:55:31.424Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1989","changes":""},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-26T09:56:17.356Z","user":"Aysel Hacizade","role":"sales_manager","action":"DELETE_ORDER","details":{"satisNo":"1993","tourist":"GULOMKODIROV UMIDJON"},"ip":"185.93.91.65"}
+{"timestamp":"2025-12-26T17:03:35.793Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"5.191.139.58"}
+{"timestamp":"2025-12-27T09:50:42.273Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"188.253.222.97"}
+{"timestamp":"2025-12-27T09:52:06.583Z","user":"Aysel Hacizade","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"188.253.221.230"}
+{"timestamp":"2025-12-27T18:38:20.980Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T19:22:46.057Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1973","changes":""},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T19:25:52.994Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1974","changes":""},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T19:27:46.081Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1975","changes":""},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T19:31:29.185Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1977","changes":""},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T19:33:34.371Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":""},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T19:33:45.615Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":""},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T19:35:54.001Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1978","changes":""},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T19:47:03.911Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1971","changes":""},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T19:48:55.813Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1982","changes":""},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T19:53:03.113Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1984","changes":""},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T19:54:58.864Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1985","changes":""},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T19:57:46.831Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1986","changes":""},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T19:59:40.987Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1979","changes":"\nDəyişikliklər:\n- Alış qiyməti: '480.00 AZN' -> '499.00 AZN'"},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T20:00:46.816Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1983","changes":""},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T20:03:29.989Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1987","changes":""},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T20:05:32.893Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1990","changes":""},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T20:20:12.623Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1983","changes":""},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T20:21:13.968Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1991","changes":""},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T20:24:56.362Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1989","changes":"\nDəyişikliklər:\n- Alış qiyməti: '540.00 AZN' -> '538.00 AZN'"},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T20:50:14.528Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1972","changes":"\nDəyişikliklər:\n- Ödəniş statusu: 'Ödənilməyib' -> 'Ödənilib'"},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T20:50:56.886Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1972","changes":""},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T20:51:39.470Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1972","changes":""},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T20:52:25.139Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1973","changes":""},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T20:54:19.654Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":""},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T20:54:30.732Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1979","changes":""},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T20:56:08.215Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1976","changes":""},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-27T20:59:15.582Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1979","changes":""},"ip":"31.171.56.87"}
+{"timestamp":"2025-12-29T14:52:10.898Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"185.93.91.74"}
+{"timestamp":"2025-12-29T15:02:58.122Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1992","changes":"\nDəyişikliklər:\n- Alış qiyməti: '0.00 AZN' -> '180.00 AZN'"},"ip":"185.93.91.74"}
+{"timestamp":"2025-12-29T15:05:07.221Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1992","changes":""},"ip":"185.93.91.74"}
+{"timestamp":"2025-12-29T15:05:50.396Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1989","changes":""},"ip":"185.93.91.74"}
+{"timestamp":"2025-12-29T15:11:28.415Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1993","tourist":"ibrahim"},"ip":"185.93.91.74"}
+{"timestamp":"2025-12-29T15:12:07.491Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1993","changes":""},"ip":"185.93.91.74"}
+{"timestamp":"2025-12-29T15:12:48.426Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1993","changes":""},"ip":"185.93.91.74"}
+{"timestamp":"2025-12-29T15:13:23.620Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1993","changes":""},"ip":"185.93.91.74"}
+{"timestamp":"2025-12-29T15:14:27.294Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1993","changes":""},"ip":"185.93.91.74"}
+{"timestamp":"2025-12-29T15:14:30.213Z","user":"ibrahim","role":"sales_manager","action":"DELETE_ORDER","details":{"satisNo":"1993","tourist":"ibrahim"},"ip":"185.93.91.74"}
+{"timestamp":"2025-12-29T15:47:19.475Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1992","changes":"\nDəyişikliklər:\n- Alış qiyməti: '180.00 AZN' -> '747.00 AZN'\n- Satış qiyməti: '0.00 AZN' -> '1224.00 AZN'"},"ip":"185.93.91.74"}
+{"timestamp":"2025-12-29T15:50:35.596Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1992","changes":""},"ip":"185.93.91.74"}
+{"timestamp":"2025-12-29T15:50:48.965Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1992","changes":"\nDəyişikliklər:\n- Alış qiyməti: '747.00 AZN' -> '927.00 AZN'"},"ip":"185.93.91.74"}
+{"timestamp":"2025-12-29T18:37:17.338Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1992","changes":""},"ip":"185.93.91.74"}
+{"timestamp":"2025-12-29T18:39:26.907Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1992","changes":""},"ip":"185.93.91.74"}
+{"timestamp":"2025-12-30T01:20:04.505Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"188.253.214.234"}
+{"timestamp":"2025-12-30T08:19:09.867Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1993","tourist":"RAHIMOV RAMZIDIN"},"ip":"185.93.91.76"}
+{"timestamp":"2025-12-30T08:25:56.669Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1993","changes":""},"ip":"185.93.91.76"}
+{"timestamp":"2025-12-30T10:36:22.035Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1994","tourist":"UBBIEVA SARBINAZ"},"ip":"185.93.91.76"}
+{"timestamp":"2025-12-30T10:39:13.556Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1994","changes":"\nDəyişikliklər:\n- Satış qiyməti: '407.00 AZN' -> '692.00 AZN'"},"ip":"185.93.91.76"}
+{"timestamp":"2025-12-30T10:39:32.566Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1994","changes":""},"ip":"185.93.91.76"}
+{"timestamp":"2025-12-30T11:13:25.291Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1995","tourist":"IBRAGIMOV SAMAT"},"ip":"185.93.91.76"}
+{"timestamp":"2025-12-30T11:27:54.337Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1996","tourist":"JURAKHUJAEVA NODIRA"},"ip":"185.93.91.76"}
+{"timestamp":"2025-12-30T11:49:40.740Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1996","changes":"\nDəyişikliklər:\n- Alış qiyməti: '56.00 AZN' -> '1456.00 AZN'"},"ip":"185.93.91.76"}
+{"timestamp":"2025-12-30T11:51:22.029Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1996","changes":""},"ip":"185.93.91.76"}
+{"timestamp":"2025-12-30T14:17:00.772Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1996","changes":"\nDəyişikliklər:\n- Alış qiyməti: '1456.00 AZN' -> '1596.00 AZN'\n- Satış qiyməti: '0.00 AZN' -> '1933.00 AZN'"},"ip":"185.93.91.76"}
+{"timestamp":"2026-01-03T17:08:12.129Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"37.61.124.27"}
+{"timestamp":"2026-01-03T17:14:03.489Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1989","changes":""},"ip":"37.61.124.27"}
+{"timestamp":"2026-01-03T17:27:05.735Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1993","changes":"\nDəyişikliklər:\n- Alış qiyməti: '1292.00 AZN' -> '1318.00 AZN'"},"ip":"37.61.118.91"}
+{"timestamp":"2026-01-03T17:27:13.032Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1993","changes":""},"ip":"37.61.118.91"}
+{"timestamp":"2026-01-03T17:30:50.124Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1993","changes":""},"ip":"37.61.118.91"}
+{"timestamp":"2026-01-03T17:32:58.367Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1994","changes":""},"ip":"37.61.124.27"}
+{"timestamp":"2026-01-03T17:33:54.884Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1987","changes":""},"ip":"37.61.124.27"}
+{"timestamp":"2026-01-03T17:41:57.428Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1994","changes":""},"ip":"37.61.124.27"}
+{"timestamp":"2026-01-03T17:42:12.459Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1996","changes":""},"ip":"37.61.124.27"}
+{"timestamp":"2026-01-03T17:42:46.489Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1996","changes":""},"ip":"37.61.124.27"}
+{"timestamp":"2026-01-03T17:42:58.467Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1995","changes":""},"ip":"37.61.124.27"}
+{"timestamp":"2026-01-03T17:47:15.859Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1994","changes":"\nDəyişikliklər:\n- Alış qiyməti: '493.00 AZN' -> '487.00 AZN'"},"ip":"37.61.118.91"}
+{"timestamp":"2026-01-03T18:10:56.301Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1997","tourist":"KODIROVA IRODAKHON"},"ip":"37.61.118.91"}
+{"timestamp":"2026-01-03T18:11:27.631Z","user":"ibrahim","role":"sales_manager","action":"UPDATE_ORDER","details":{"satisNo":"1997","changes":""},"ip":"37.61.118.91"}
+{"timestamp":"2026-01-12T14:19:37.715Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2026-01-12T14:23:27.062Z","user":"Səid","role":"owner","action":"ARCHIVE_ORDER","details":{"satisNo":"1695"},"ip":"::1"}
+{"timestamp":"2026-01-12T14:37:02.858Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2026-01-12T14:54:43.076Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2026-01-12T14:59:56.225Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2026-01-12T15:02:46.606Z","user":"Səid","role":"owner","action":"ARCHIVE_ORDER","details":{"satisNo":"1995","tourist":"IBRAGIMOV SAMAT"},"ip":"::1"}
+{"timestamp":"2026-01-12T15:05:34.311Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::ffff:127.0.0.1"}
+{"timestamp":"2026-01-12T15:21:58.984Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2026-01-12T15:22:36.464Z","user":"Səid","role":"owner","action":"BULK_ARCHIVE","details":{"count":27,"ids":["1963","1962","1961","1960","1959","1939","1935","1934","1933","1932","1921","1920","1918","1874","1696","1698","1699","1700","1701","1703","1704","1705","1706","1707","1708","1709","1711"]},"ip":"::1"}
+{"timestamp":"2026-01-12T15:22:45.105Z","user":"Səid","role":"owner","action":"ARCHIVE_ORDER","details":{"satisNo":"1997","tourist":"KODIROVA IRODAKHON"},"ip":"::1"}
+{"timestamp":"2026-01-12T15:24:30.062Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2026-01-12T15:24:52.704Z","user":"Səid","role":"owner","action":"LOGOUT","details":{},"ip":"::1"}
+{"timestamp":"2026-01-12T15:35:11.793Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2026-01-12T15:55:33.832Z","user":"Owner (Sessiyasız)","role":"owner","action":"UPDATE_USER_BY_PASSWORD","details":{"targetUser":"robert"},"ip":"::1"}
+{"timestamp":"2026-01-12T15:55:42.005Z","user":"Səid","role":"owner","action":"UPDATE_ALL_PERMISSIONS_BY_PASSWORD","details":{"details":"İcazələr parolla yeniləndi."},"ip":"::1"}
+{"timestamp":"2026-01-12T15:55:48.501Z","user":"Robert Alizadə","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2026-01-12T16:08:43.683Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2026-01-13T10:46:22.529Z","user":"Səid","role":"owner","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2026-01-13T10:46:26.953Z","user":"Səid","role":"owner","action":"LOGOUT","details":{},"ip":"::1"}
+{"timestamp":"2026-01-13T10:54:12.092Z","user":"Səid","role":"owner","action":"UPDATE_ALL_PERMISSIONS_BY_PASSWORD","details":{"details":"İcazələr parolla yeniləndi."},"ip":"::1"}
+{"timestamp":"2026-01-13T10:54:23.935Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2026-01-13T10:55:59.972Z","user":"ibrahim","role":"sales_manager","action":"LOGOUT","details":{},"ip":"::1"}
+{"timestamp":"2026-01-13T10:56:04.359Z","user":"Robert Alizadə","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2026-01-13T11:00:11.535Z","user":"Robert Alizadə","role":"sales_manager","action":"LOGOUT","details":{},"ip":"::1"}
+{"timestamp":"2026-01-13T11:00:14.019Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2026-01-13T11:00:27.237Z","user":"ibrahim","role":"sales_manager","action":"BULK_ARCHIVE","details":{"count":2,"ids":["1990","1989"]},"ip":"::1"}
+{"timestamp":"2026-01-13T15:51:39.786Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2026-01-13T15:52:21.858Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1997","tourist":"sss"},"ip":"::1"}
+{"timestamp":"2026-01-13T15:53:52.194Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2026-01-13T15:54:05.892Z","user":"ibrahim","role":"sales_manager","action":"CREATE_ORDER","details":{"satisNo":"1998","tourist":"sss"},"ip":"::1"}
+{"timestamp":"2026-01-13T16:11:46.622Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2026-01-13T16:15:03.803Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2026-01-13T16:17:47.985Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2026-01-13T16:18:19.043Z","user":"ibrahim","role":"sales_manager","action":"RESTORE_ORDER","details":{"satisNo":"1960"},"ip":"::1"}
+{"timestamp":"2026-01-13T16:18:27.448Z","user":"ibrahim","role":"sales_manager","action":"RESTORE_ORDER","details":{"satisNo":"1995"},"ip":"::1"}
+{"timestamp":"2026-01-13T16:18:35.642Z","user":"ibrahim","role":"sales_manager","action":"RESTORE_ORDER","details":{"satisNo":"1990"},"ip":"::1"}
+{"timestamp":"2026-01-13T16:18:41.756Z","user":"ibrahim","role":"sales_manager","action":"RESTORE_ORDER","details":{"satisNo":"1989"},"ip":"::1"}
+{"timestamp":"2026-01-13T16:18:47.517Z","user":"ibrahim","role":"sales_manager","action":"RESTORE_ORDER","details":{"satisNo":"1963"},"ip":"::1"}
+{"timestamp":"2026-01-13T16:21:34.936Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2026-01-13T16:22:09.327Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2026-01-13T16:25:37.204Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}
+{"timestamp":"2026-01-13T16:26:29.275Z","user":"ibrahim","role":"sales_manager","action":"LOGIN_SUCCESS","details":{},"ip":"::1"}

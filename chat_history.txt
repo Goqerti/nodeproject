@@ -1,0 +1,3 @@
+{"id":"f139d21a-b909-4ab5-9605-14d6d16b4625","sender":"Şirvan","role":"sales_manager","text":"bb","timestamp":"2025-07-10T21:05:35.325Z"}
+{"id":"6fa855cd-2aa7-44a9-91b3-e47b476b4023","sender":"Ceyhun Sadayev","role":"director","text":"salam","timestamp":"2025-12-04T16:25:49.677Z"}
+{"id":"38a2e702-6423-41da-b21e-e822a86d87b8","sender":"Aysel Hacizade","role":"sales_manager","text":"salam","timestamp":"2025-12-04T16:26:05.787Z"}

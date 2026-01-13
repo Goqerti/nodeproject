@@ -1,0 +1,66 @@
+{
+  "ibrahim": {
+    "canEditOrder": true,
+    "canDeleteOrder": true,
+    "canEditFinancials": true,
+    "finance_canChangePayments": true,
+    "canViewFinancials": true,
+    "canArchiveOrder": true
+  },
+  "ilkin": {
+    "canEditOrder": false,
+    "canDeleteOrder": false,
+    "canEditFinancials": false,
+    "finance_canChangePayments": false,
+    "canViewFinancials": false,
+    "canArchiveOrder": false
+  },
+  "Aysel": {
+    "canEditOrder": true,
+    "canDeleteOrder": true,
+    "canEditFinancials": true,
+    "finance_canChangePayments": true,
+    "canViewFinancials": false,
+    "canArchiveOrder": false
+  },
+  "nermin": {
+    "canEditOrder": true,
+    "canDeleteOrder": true,
+    "canEditFinancials": true,
+    "finance_canChangePayments": true,
+    "canViewFinancials": false,
+    "canArchiveOrder": false
+  },
+  "robert": {
+    "canEditOrder": true,
+    "canDeleteOrder": true,
+    "canEditFinancials": true,
+    "finance_canChangePayments": true,
+    "canViewFinancials": false,
+    "canArchiveOrder": false
+  },
+  "ceyhun": {
+    "canEditOrder": true,
+    "canDeleteOrder": true,
+    "canEditFinancials": true,
+    "finance_canChangePayments": true,
+    "canViewFinancials": false,
+    "canArchiveOrder": false
+  },
+  "nərmin": {
+    "canEditOrder": true,
+    "canDeleteOrder": true,
+    "canEditFinancials": true,
+    "finance_canChangePayments": true,
+    "canViewFinancials": false,
+    "canArchiveOrder": false
+  },
+  "aysel": {
+    "canEditOrder": true,
+    "canDeleteOrder": true,
+    "canEditFinancials": true,
+    "finance_canChangePayments": true,
+    "canViewFinancials": false,
+    "canArchiveOrder": false
+  }
+}
