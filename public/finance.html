@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maliyyə - İnzibati Xərclər</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+      /* === Naviqasiya stilləri === */
+        header nav .nav-btn {
+            font-family: var(--primary-font);
+            padding: 8px 16px;
+            border: 1px solid transparent;
+            background-color: transparent;
+            color: var(--text-secondary);
+            cursor: pointer;
+            border-radius: 6px;
+            font-size: 0.9em;
+            font-weight: 500;
+            transition: background-color 0.2s, color 0.2s;
+            text-decoration: none;
+        }
+        header nav .nav-btn:hover {
+            background-color: #f3f4f6;
+            color: var(--text-primary);
+        }
+        header nav .nav-btn.active {
+            background-color: var(--primary-action-color);
+            color: white;
+        }
+        
+        /* === Sifariş Sətrinin Status Rəngləri === */
+        .order-row.status-paid { border-left: 5px solid #28a745; }
+        .order-row.status-partial { border-left: 5px solid #ffc107; }
+        .order-row.status-unpaid { border-left: 5px solid #dc3545; }
+
+        /* ============================================== */
+        /* SİFARİŞ FORMASI (addOrderForm) ÜÇÜN STILLƏR   */
+        /* ============================================== */
+
+        /* --- Modal Pəncərənin Ümumi Stili --- */
+        .modal {
+            display: none; /* YALNIZ BU QALMALIDIR */
+            position: fixed; 
+            z-index: 1000; 
+            left: 0; 
+            top: 0; 
+            width: 100%; 
+            height: 100%; 
+            background-color: rgba(17, 24, 39, 0.6);
+            backdrop-filter: blur(4px);
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* --- Modal Məzmun Bloku (Ağ Pəncərə) --- */
+        .modal-content {
+            background-color: var(--surface-color, #ffffff); 
+            padding: 35px; 
+            border: none;
+            width: 90%; 
+            max-width: 850px; 
+            border-radius: 12px; 
+            box-shadow: var(--shadow-md, 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1));
+            position: relative;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        /* --- Modal Başlıqları --- */
+        .modal-content h3 { 
+            margin-top: 0; 
+            font-size: 1.5em; 
+            border-bottom: 1px solid var(--border-color, #e5e7eb); 
+            padding-bottom: 15px; 
+            margin-bottom: 25px;
+        }
+        .modal-content h4 { 
+            font-size: 1.1em; 
+            color: var(--primary-action-color, #3b82f6); 
+            margin-top: 25px; 
+            margin-bottom: 15px; 
+        }
+
+        /* --- Bağlama (X) Düyməsi --- */
+        .close-button { 
+            color: #9ca3af; 
+            float: right; 
+            font-size: 32px; 
+            font-weight: bold; 
+            transition: color 0.2s; 
+            position: absolute; 
+            top: 15px; 
+            right: 25px; 
+            cursor: pointer; 
+        }
+        .close-button:hover, .close-button:focus { 
+            color: var(--text-primary, #1f2937); 
+            text-decoration: none; 
+        }
+
+        /* --- Formanın Daxili Elementləri --- */
+        #addOrderForm label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+
+        #addOrderForm input[type="text"],
+        #addOrderForm input[type="number"],
+        #addOrderForm input[type="date"],
+        #addOrderForm select,
+        #addOrderForm textarea {
+            width: 100%; 
+            padding: 10px 12px; 
+            border: 1px solid var(--border-color, #e5e7eb); 
+            border-radius: 6px; 
+            box-sizing: border-box; 
+            font-size: 0.95em; 
+            background-color: #f9fafb;
+        }
+
+        #addOrderForm button[type="submit"] {
+            background-color: var(--accent-color, #10b981); 
+            color: white; 
+            padding: 12px 25px; 
+            border: none;
+            border-radius: var(--border-radius, 8px); 
+            cursor: pointer; 
+            font-size: 1em; 
+            margin-top: 30px; 
+            display: block;
+            width: auto; 
+            min-width: 200px; 
+            margin-left: auto; 
+            margin-right: auto; 
+            transition: background-color 0.2s; 
+            font-weight: 600;
+        }
+
+        #addOrderForm button[type="submit"]:hover {
+            background-color: var(--accent-hover, #059669);
+        }
+
+        .form-group-inline { 
+            display: flex; 
+            gap: 20px; 
+            align-items: center; 
+            margin-bottom: 12px; 
+        }
+        .form-group-inline > div { 
+            flex: 1; 
+        }
+
+        .hotel-entry { 
+            background-color: #f9fafb; 
+            padding: 16px; 
+            border: 1px solid var(--border-color, #e5e7eb); 
+            border-radius: var(--border-radius, 8px); 
+            margin-bottom: 16px; 
+        }
+        .dynamic-section-header { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+        }
+
+        .dynamic-input-container .form-group { margin-bottom: 10px; }
+        .dynamic-input-container .form-group label { font-size: 0.9em; color: #555; }
+        
+        .payment-toggle-btn { padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; cursor: pointer; font-size: 0.8em; background-color: #f8f9fa; transition: all 0.2s; }
+        .payment-toggle-btn.paid { background-color: var(--accent-color); color: white; border-color: var(--accent-color); }
+        
+        .form-group-inline.payment-item { justify-content: space-between; align-items: center; margin-bottom: 10px; }
+        .form-group-inline.payment-item label { margin-bottom: 0; text-align: left; }
+        .form-group-inline.payment-item input { max-width: 150px; }
+        .hotel-entry .form-group-inline { justify-content: space-between; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Maliyyə Paneli</h1>
+        <nav>
+            <a href="/finance.html" class="nav-btn active">İnzibati Xərclər</a> 
+            <a href="/finance-reports.html" class="nav-btn">Şirkət Hesabatları</a>
+            <a href="/inventory.html" class="nav-btn">İnventar Uçotu</a>
+            <a href="/finance-expense-search.html" class="nav-btn">Detallı Xərc Axtarışı</a>
+            <a href="/" class="logout-btn">Əsas Səhifə</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="expensesView">
+            <h2>Xərc Paketləri</h2>
+            <div class="actions">
+                <button id="showAddExpenseModalBtn" class="add-order-btn">Yeni Xərc Paketi Əlavə Et</button>
+            </div>
+            <div class="table-container" style="margin-top: 20px;">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Paket Tarixi</th>
+                            <th>Ümumi Məbləğ</th>
+                            <th>Əlavə edən</th>
+                            <th>Əməliyyatlar</th>
+                        </tr>
+                    </thead>
+                    <tbody id="expensesTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <div id="expenseModal" class="modal">
+        <div class="modal-content" style="max-width: 900px;">
+            <span class="close-button">&times;</span>
+            <h3 id="modalTitle">Yeni Xərc Paketi</h3>
+            <form id="expenseForm">
+                <input type="hidden" id="expenseId" name="id">
+                
+                <div id="expenseItemsContainer">
+                    </div>
+
+                <div class="total-amount-display">
+                    Ümumi Məbləğ: <span id="totalAmount">0.00</span> AZN
+                </div>
+
+                <button type="submit" id="submitButton">Paketi Yadda Saxla</button>
+            </form>
+        </div>
+    </div>
+    
+    <div id="detailsModal" class="modal">
+        <div class="modal-content details-modal-content" style="max-width: 600px;">
+            <span class="close-button">&times;</span>
+            <h3>Xərc Paketinin Detalları</h3>
+            <div id="detailsContent"></div>
+        </div>
+    </div>
+    
+    <script src="finance.js"></script>
+</body>
+</html>
+

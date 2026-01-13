@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maliyyə - Şirkət və Otel Hesabatları</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <style>
+        /* === Naviqasiya stilləri === */
+        header nav .nav-btn {
+            font-family: var(--primary-font);
+            padding: 8px 16px;
+            border: 1px solid transparent;
+            background-color: transparent;
+            color: var(--text-secondary);
+            cursor: pointer;
+            border-radius: 6px;
+            font-size: 0.9em;
+            font-weight: 500;
+            transition: background-color 0.2s, color 0.2s;
+            text-decoration: none;
+        }
+        header nav .nav-btn:hover {
+            background-color: #f3f4f6;
+            color: var(--text-primary);
+        }
+        header nav .nav-btn.active {
+            background-color: var(--primary-action-color);
+            color: white;
+        }
+        
+        /* === Hesabat Kartları Stili === */
+        .report-card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            border: 1px solid #e5e7eb;
+        }
+        .full-width {
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+        /* === Cədvəl Stili === */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        .data-table th, .data-table td {
+            text-align: left;
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+        .data-table th {
+            background-color: #f8f9fa;
+            font-weight: 600;
+        }
+        .table-striped tbody tr:nth-of-type(odd) {
+            background-color: rgba(0,0,0,.05);
+        }
+
+        /* === Sifariş Sətrinin Status Rəngləri === */
+        .order-row.status-paid { border-left: 5px solid #28a745; }
+        .order-row.status-partial { border-left: 5px solid #ffc107; }
+        .order-row.status-unpaid { border-left: 5px solid #dc3545; }
+
+        /* ============================================== */
+        /* MODAL PƏNCƏRƏLƏR                              */
+        /* ============================================== */
+        .modal {
+            display: none;
+            position: fixed; 
+            z-index: 1000; 
+            left: 0; 
+            top: 0; 
+            width: 100%; 
+            height: 100%; 
+            background-color: rgba(17, 24, 39, 0.6);
+            backdrop-filter: blur(4px);
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .modal-content {
+            background-color: var(--surface-color, #ffffff); 
+            padding: 35px; 
+            border: none;
+            width: 90%; 
+            max-width: 850px; 
+            border-radius: 12px; 
+            box-shadow: var(--shadow-md, 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1));
+            position: relative;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .modal-content h3 { 
+            margin-top: 0; 
+            font-size: 1.5em; 
+            border-bottom: 1px solid var(--border-color, #e5e7eb); 
+            padding-bottom: 15px; 
+            margin-bottom: 25px;
+        }
+        .modal-content h4 { 
+            font-size: 1.1em; 
+            color: var(--primary-action-color, #3b82f6); 
+            margin-top: 25px; 
+            margin-bottom: 15px; 
+        }
+
+        .close-button { 
+            color: #9ca3af; 
+            float: right; 
+            font-size: 32px; 
+            font-weight: bold; 
+            transition: color 0.2s; 
+            position: absolute; 
+            top: 15px; 
+            right: 25px; 
+            cursor: pointer; 
+        }
+        .close-button:hover, .close-button:focus { 
+            color: var(--text-primary, #1f2937); 
+            text-decoration: none; 
+        }
+
+        /* Form Elementləri */
+        #addOrderForm label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+
+        #addOrderForm input[type="text"],
+        #addOrderForm input[type="number"],
+        #addOrderForm input[type="date"],
+        #addOrderForm select,
+        #addOrderForm textarea {
+            width: 100%; 
+            padding: 10px 12px; 
+            border: 1px solid var(--border-color, #e5e7eb); 
+            border-radius: 6px; 
+            box-sizing: border-box; 
+            font-size: 0.95em; 
+            background-color: #f9fafb;
+        }
+
+        #addOrderForm button[type="submit"] {
+            background-color: var(--accent-color, #10b981); 
+            color: white; 
+            padding: 12px 25px; 
+            border: none;
+            border-radius: var(--border-radius, 8px); 
+            cursor: pointer; 
+            font-size: 1em; 
+            margin-top: 30px; 
+            display: block;
+            width: auto; 
+            min-width: 200px; 
+            margin-left: auto; 
+            margin-right: auto; 
+            transition: background-color 0.2s; 
+            font-weight: 600;
+        }
+
+        #addOrderForm button[type="submit"]:hover {
+            background-color: var(--accent-hover, #059669);
+        }
+
+        .form-group-inline { 
+            display: flex; 
+            gap: 20px; 
+            align-items: center; 
+            margin-bottom: 12px; 
+        }
+        .form-group-inline > div { 
+            flex: 1; 
+        }
+
+        .hotel-entry { 
+            background-color: #f9fafb; 
+            padding: 16px; 
+            border: 1px solid var(--border-color, #e5e7eb); 
+            border-radius: var(--border-radius, 8px); 
+            margin-bottom: 16px; 
+        }
+        .dynamic-section-header { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+        }
+
+        .dynamic-input-container .form-group { margin-bottom: 10px; }
+        .dynamic-input-container .form-group label { font-size: 0.9em; color: #555; }
+        
+        .payment-toggle-btn { padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; cursor: pointer; font-size: 0.8em; background-color: #f8f9fa; transition: all 0.2s; }
+        .payment-toggle-btn.paid { background-color: var(--accent-color); color: white; border-color: var(--accent-color); }
+        
+        .form-group-inline.payment-item { justify-content: space-between; align-items: center; margin-bottom: 10px; }
+        .form-group-inline.payment-item label { margin-bottom: 0; text-align: left; }
+        .form-group-inline.payment-item input { max-width: 150px; }
+        .hotel-entry .form-group-inline { justify-content: space-between; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Maliyyə Paneli</h1>
+        <nav>
+            <a href="/finance.html" class="nav-btn">İnzibati Xərclər</a> 
+            <a href="/finance-reports.html" class="nav-btn active">Şirkət Hesabatları</a>
+            <a href="/inventory.html" class="nav-btn">İnventar Uçotu</a>
+            <a href="/finance-expense-search.html" class="nav-btn">Detallı Xərc Axtarışı</a>
+            <a href="/" class="logout-btn">Əsas Səhifə</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="report-card full-width">
+            <h3><i class="fas fa-hotel"></i> Otellərlə Dövriyyə (Gəlir)</h3>
+            <div class="report-actions" style="margin-bottom: 15px;">
+                 <span class="badge badge-info" style="background: #e3f2fd; color: #0d47a1; padding: 5px 10px; border-radius: 4px; font-size: 0.9em;">
+                    Ən çox gəlir gətirən otellər
+                 </span>
+            </div>
+            <div class="chart-container" style="height: 350px; position: relative;">
+                <canvas id="hotelTurnoverChart"></canvas>
+            </div>
+            <div class="table-responsive" style="margin-top: 20px;">
+                <table class="data-table table-striped" id="hotel-turnover-table">
+                    <thead>
+                        <tr>
+                            <th>Otel Adı</th>
+                            <th style="text-align: center;">Sifariş Sayı</th>
+                            <th style="text-align: right;">Cəmi Dövriyyə (Gəlir)</th>
+                            <th style="text-align: left; padding-left: 20px;">% Payı</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="companyReportsView" class="report-card full-width">
+            <h2><i class="fas fa-briefcase"></i> Xarici Şirkət Üzrə Sifarişlər</h2>
+            <div class="filters-container" style="margin-bottom: 15px;">
+                <div>
+                    <label for="companyFilterSelect">Şirkət Seçin:</label>
+                    <select id="companyFilterSelect" style="padding: 8px; border-radius: 4px; border: 1px solid #ddd;"></select>
+                </div>
+                <button id="getCompanyReportBtn" class="filter-apply-btn" style="margin-left: 10px; padding: 8px 15px; background: #3b82f6; color: white; border: none; border-radius: 4px; cursor: pointer;">Hesabatı Göstər</button>
+            </div>
+            <div id="companyReportSummary" class="summary-grid" style="margin-top: 20px; display: none; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;"></div>
+            <div id="companyReportResult" class="table-container" style="margin-top: 20px; display: none;">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Satış №</th>
+                            <th>Turist</th>
+                            <th>Ümumi Alış</th>
+                            <th>Ümumi Satış</th>
+                            <th>Gəlir</th>
+                            <th>Əməliyyatlar</th>
+                        </tr>
+                    </thead>
+                    <tbody id="companyOrdersTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    
+    <div id="addOrderModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" title="Bağla">&times;</span>
+            <h3 id="editModalTitle">Sifarişə Düzəliş Et</h3>
+            <form id="addOrderForm">
+                <input type="hidden" id="editingOrderId">
+                <h4>Əsas Məlumatlar</h4>
+                <div class="form-group-inline">
+                    <div><label for="adultGuests">Böyük Qonaq Sayı:</label><input type="number" id="adultGuests" min="1" value="1"></div>
+                    <div><label for="childGuests">Uşaq Qonaq Sayı:</label><input type="number" id="childGuests" min="0" value="0"></div>
+                </div>
+                <label>Turistlər:</label>
+                <div id="touristsContainer" class="dynamic-input-container"></div>
+                <label for="xariciSirket">Xarici şirkət:</label>
+                <input type="text" id="xariciSirket">
+                <label for="rezNomresi">Rez. nömrəsi:</label>
+                <input type="text" id="rezNomresi"> 
+                <hr>
+                <div class="dynamic-section-header"><h4>Otel Məlumatları</h4><button type="button" id="addHotelBtn" class="action-btn-small" style="padding: 5px 10px; cursor: pointer;">+</button></div>
+                <div id="hotelEntriesContainer"></div>
+                <hr>
+                <h4>Xərclərin Detalları</h4>
+                <div id="costsContainer">
+                    </div>
+                <hr>
+                <h4>Maliyyə Məlumatları</h4>
+                <div class="form-group-inline">
+                    <div><label for="alishAmount">Alış Qiyməti (Avtomatik):</label><input type="number" step="0.01" id="alishAmount" readonly></div>
+                    <div><label for="alishCurrency">Valyuta (Alış):</label><select id="alishCurrency"><option value="AZN">AZN</option><option value="USD">USD</option><option value="EUR">EUR</option></select></div>
+                </div>
+                <div class="form-group-inline">
+                    <div><label for="satishAmount">Satış Qiyməti:</label><input type="number" step="0.01" id="satishAmount"></div>
+                    <div><label for="satishCurrency">Valyuta (Satış):</label><select id="satishCurrency"><option value="AZN">AZN</option><option value="USD">USD</option><option value="EUR">EUR</option></select></div>
+                </div>
+                <hr>
+                <h4>Digər</h4>
+                <label for="status">Status:</label>
+                <select id="status"><option value="Davam edir">Davam edir</option><option value="Bitdi">Bitdi</option><option value="Ləğv edildi">Ləğv edildi</option></select>
+                <label for="qeyd">Qeyd:</label>
+                <input type="text" id="qeyd">
+                <h4>Ödəniş Məlumatları (Şirkətə)</h4>
+                <div class="form-group-inline">
+                    <div><label for="paymentStatus">Ödəniş Statusu:</label><select id="paymentStatus"><option value="Ödənilməyib">Ödənilməyib</option><option value="Ödənilib">Ödənilib</option></select></div>
+                    <div><label for="paymentDueDate">Gözlənilən Ödəniş Tarixi:</label><input type="date" id="paymentDueDate"></div>
+                </div>
+                <button type="submit">Dəyişiklikləri Yadda Saxla</button>
+            </form>
+        </div>
+    </div>
+    
+    <div id="noteModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" id="closeNoteModalBtn" title="Bağla">&times;</span>
+            <h3 id="noteModalTitle">Sifariş üçün Qeyd</h3>
+            <form id="noteForm">
+                <input type="hidden" id="noteSatisNo">
+                <label for="noteText">Qeyd Mətni:</label>
+                <textarea id="noteText" rows="6"></textarea>
+                <button type="submit">Qeydi Yadda Saxla</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="finance-reports.js"></script>
+</body>
+</html>

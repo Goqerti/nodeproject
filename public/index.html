@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n-key="loginTitle">Musa - Turizm Mühasibat Sistemi</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <style>
+        /* Bu stillər style.css faylında olsa da, təhlükəsizlik üçün burda da saxlayırıq */
+        
+        /* Maliyyə düyməsi */
+        .total-btn {
+            background-color: #ffd700; color: #333; border: none; padding: 15px 20px; border-radius: 8px; cursor: pointer; font-weight: bold; font-size: 16px; display: flex; align-items: center; gap: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: background-color 0.3s;
+        }
+        .total-btn:hover { background-color: #ffcc00; }
+        
+        /* Modal Tabs */
+        .modal-tabs { display: flex; border-bottom: 2px solid #ddd; margin-bottom: 20px; }
+        .modal-tab { padding: 10px 20px; cursor: pointer; font-weight: 600; color: #666; border-bottom: 3px solid transparent; }
+        .modal-tab.active { color: #333; border-bottom-color: #ffd700; }
+        .modal-tab-content { display: none; }
+        .modal-tab-content.active { display: block; }
+
+        /* Report Table in Modal */
+        .mini-report-table { width: 100%; border-collapse: collapse; margin-bottom: 15px; font-size: 0.9em; }
+        .mini-report-table th, .mini-report-table td { border: 1px solid #eee; padding: 8px; text-align: left; }
+        .mini-report-table th { background-color: #f9f9f9; }
+        
+        /* Bulk Action Panel */
+        .bulk-action-panel { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background-color: #333; color: white; padding: 15px 30px; border-radius: 50px; box-shadow: 0 5px 20px rgba(0,0,0,0.3); z-index: 1000; display: none; }
+        .bulk-content { display: flex; align-items: center; gap: 20px; }
+        .bulk-btn { padding: 8px 16px; border: none; border-radius: 20px; cursor: pointer; font-weight: bold; margin-left: 10px;}
+        .bulk-btn.archive { background-color: #ffd700; color: #333; }
+        .bulk-btn.cancel { background-color: #666; color: white; }
+        tr.selected-row { background-color: #fff3cd !important; border-left: 5px solid #ffc107; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="main-header-title">Musa</h1>
+        <div class="nav-container" id="navContainer">
+            <nav>
+                <button id="navDashboardBtn" class="nav-element active" data-i18n-key="dashboardNav">Panel</button>
+                <button id="navSatishlarBtn" class="nav-element" data-i18n-key="salesNav">Satışlar</button>
+                <button id="navRezervasiyalarBtn" class="nav-element" data-i18n-key="reservationsNav">Rezervasiyalar</button>
+                <a href="/partners.html" id="navTasksBtn" class="nav-element">Partnyorlar<span id="tasks-count" class="badge" style="display:none;"></span></a>
+                <a href="/transport.html" id="navTransportBtn" class="nav-element">Transport</a>
+                <button id="navBildirishlerBtn" class="nav-element" data-i18n-key="notificationsNav">Bildirişlər<span id="notification-count" class="badge" style="display:none;"></span></button>
+                <button id="navChatBtn" class="nav-element" data-i18n-key="chatNav">Chat</button>
+                <button id="navAxtarishBtn" class="nav-element" data-i18n-key="searchNav">Axtarış</button>
+                <button id="navHesabatBtn" class="nav-element" data-i18n-key="reportsNav">Hesabat</button>
+                <button id="navBorclarBtn" class="nav-element" data-i18n-key="debtsNav">Borclar</button>
+                <a href="/finance.html" id="navFinanceBtn" class="nav-element nav-btn-owner-only" style="display: none;">Maliyyə</a>
+                <button id="settingsBtn" class="nav-element" title="Tənzimləmələr"><i class="fa-solid fa-gear"></i></button>
+                <button id="recycleBinBtn" class="nav-element" title="Zibil Qabı"><i class="fa-solid fa-recycle"></i></button>
+                <a href="/logout" class="nav-element logout-btn" data-i18n-key="logoutNav">Çıxış</a>
+                <div class="lang-switcher-container-header">
+                     <div class="language-switcher" id="lang-switcher-main">
+                        <div class="selected-lang"><span id="selected-lang-text">Azərbaycanca</span><i class="fas fa-chevron-down"></i></div>
+                        <ul class="lang-options"><li data-lang="az">Azərbaycanca</li><li data-lang="en">English</li><li data-lang="ru">Русский</li></ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <button class="mobile-menu-toggle-btn" id="mobileMenuToggleBtn"><i class="fa-solid fa-bars"></i></button>
+    </header>
+
+    <main>
+        <div id="dashboardView">
+             <div class="financial-dashboard-container">
+                <h2>Maliyyə Paneli</h2>
+                <div class="filters-container" style="margin-bottom: 20px;">
+                    <div><label>Aya görə filterlə:</label><input type="month" id="dashboardMonthFilter"></div>
+                    <button id="resetDashboardFilterBtn" class="filter-reset-btn">Sıfırla</button>
+                </div>
+                <div id="financialDashboard" class="summary-grid"></div>
+            </div>
+        </div>
+
+        <div id="satishlarView" style="display: none;"> 
+            <h2 data-i18n-key="salesTableTitle">Satışlar Cədvəli</h2>
+            <div class="filters-container">
+                <div><label>Rez. №:</label><input type="text" id="filterRezNo" placeholder="Axtar..."></div>
+                <div><label>İl:</label><input type="number" id="filterYear" placeholder="YYYY"></div>
+                <div><label>Ay:</label><input type="month" id="filterMonth"></div>
+                <div><label>Tarix:</label><input type="date" id="filterDate"></div>
+                <button id="applyFiltersBtn" class="filter-apply-btn">Filterlə</button>
+                <button id="resetFiltersBtn" class="filter-reset-btn">Sıfırla</button>
+            </div>
+            
+            <div class="actions" style="display: flex; justify-content: space-between; align-items: center;">
+                <button id="showAddOrderFormBtn" class="add-order-btn" data-i18n-key="newOrderButton">Yeni sifariş əlavə et</button>
+                </div>
+
+            <div class="summary-grid">
+                <div class="stat-card"><h4 data-i18n-key="totalOrders">Cəmi Sifarişlər</h4><p id="totalOrders">0</p></div>
+                <button id="showTotalBtn" class="total-btn"><i class="fas fa-coins"></i> Maliyyə Hesabatı (Şifrəli)</button>
+            </div>
+
+            <div class="table-container" style="margin-top: 20px;">
+                <table>
+                    <thead>
+                        <tr><th>Satış №</th><th>Yaradılma Tarixi</th><th>Rez. №</th><th>Turist</th><th>Böyük</th><th>Uşaq</th><th>Xarici şirkət</th><th>Otel Adı</th><th>Giriş Tarixi</th><th>Alış</th><th>Satış</th><th>Gəlir</th><th>Status</th><th>Əməliyyatlar</th><th>Qeyd</th></tr>
+                    </thead>
+                    <tbody id="ordersTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="rezervasiyalarView" style="display: none;">
+            <h2 data-i18n-key="reservationsNav">Otel Rezervasiyaları</h2>
+            <div class="filters-container reservation-filters">
+                <div><label>Otel Adı:</label><input type="text" id="reservationFilterHotelName" placeholder="Otel adını daxil edin"></div>
+                <div><label>Ay:</label><input type="month" id="reservationFilterMonth"></div>
+                <div><label>Tarix:</label><input type="date" id="reservationFilterDate"></div>
+                <button id="applyReservationFiltersBtn" class="filter-apply-btn">Filterlə</button>
+                <button id="resetReservationFiltersBtn" class="filter-reset-btn">Sıfırla</button>
+            </div>
+            <div class="table-container">
+                <table><thead><tr><th>Satış №</th><th>Turist</th><th>Otel Adı</th><th>Giriş</th><th>Çıxış</th><th>Böyük</th><th>Uşaq</th><th>Əməliyyatlar</th></tr></thead><tbody id="reservationsTableBody"></tbody></table>
+            </div>
+        </div>
+        
+        <div id="bildirishlerView" style="display: none;">
+            <h2 data-i18n-key="notificationsNav">Təcili Bildirişlər</h2>
+            <div class="table-container"><table><thead><tr><th>Satış №</th><th>Turist</th><th>Giriş</th><th>Problem</th><th>Əməliyyat</th></tr></thead><tbody id="notificationsTableBody"></tbody></table></div>
+        </div>
+        
+        <div id="chatView" style="display: none;"><h2 data-i18n-key="chatNav">Chat</h2><div class="chat-page-container"><div class="chat-messages" id="chat-messages"></div><div class="chat-input-area"><input type="text" id="chat-input" placeholder="Mesaj..."><button id="chat-send-btn"><i class="fas fa-paper-plane"></i></button></div></div></div>
+        
+        <div id="searchView" style="display: none;"><div class="search-container"><h2>Sifariş Axtarışı</h2><div class="search-form"><input type="text" id="searchInputRezNomresi" placeholder="Rez. nömrəsi..."><button id="searchButton">Axtar</button></div><div id="searchResultDisplay" class="search-result-display"></div></div></div>
+
+        <div id="hesabatView" style="display: none;">
+            <h2 data-i18n-key="reportsNav">Hesabatlar</h2>
+            
+            <div style="background: #fff; padding: 20px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px;">
+                <h4 style="margin-top:0;">Detallı Sifariş Hesabatı</h4>
+                <div class="filters-container">
+                    <div>
+                        <label>Hesabat Növü:</label>
+                        <select id="reportTypeSelect">
+                            <option value="company">Xarici Şirkət Üzrə</option>
+                            <option value="hotel">Otel Üzrə</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Seçim:</label>
+                        <select id="reportEntitySelect"><option value="">-- Seçin --</option></select>
+                    </div>
+                    <button id="getDetailedReportBtn" class="filter-apply-btn">Göstər</button>
+                </div>
+                <div id="detailedReportSummary" class="summary-grid" style="margin-top: 20px; display: none;"></div>
+                <div id="detailedReportResult" class="table-container" style="margin-top: 20px; display: none;">
+                    <table>
+                        <thead>
+                            <tr><th>Satış №</th><th>Turist</th><th>Otel/Şirkət</th><th>Alış</th><th>Satış</th><th>Gəlir</th><th>Əməliyyat</th></tr>
+                        </thead>
+                        <tbody id="detailedReportTableBody"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <hr style="margin: 40px 0;">
+            <h4>Ümumi Maliyyə Hesabatı (Dövr üzrə)</h4>
+            <div class="filters-container report-filters"> 
+                <div><label>İl:</label><input type="number" id="reportFilterYear" placeholder="YYYY"></div>
+                <div><label>Ay:</label><input type="month" id="reportFilterMonth"></div>
+                <div><label>Otel Adı:</label><input type="text" id="reportFilterHotelName" placeholder="Otel adı..."></div>
+                <button id="generateReportBtn" class="filter-apply-btn">Hesabatı Göstər</button>
+            </div>
+            <div id="reportResultDisplay" class="report-result-display"></div>
+        </div>
+
+        <div id="borclarView" style="display: none;">
+            <h2 data-i18n-key="debtsTableTitle">Borclar Cədvəli</h2>
+            <div class="filters-container"><div><label>Şirkət Adı:</label><input type="text" id="borclarSearchInput"></div><button id="borclarSearchBtn" class="filter-apply-btn">Axtar</button></div>
+            <div class="table-container"><table><thead><tr><th>Şirkət Adı</th><th>Satış №</th><th>Turist</th><th>Borc</th><th>Tarix</th><th>Keçid</th></tr></thead><tbody id="borclarTableBody"></tbody></table></div>
+        </div>
+        
+        <div id="recycleBinView" style="display: none;"><h2>Zibil Qabı</h2><div class="table-container"><table><thead><tr><th>Satış №</th><th>Turist</th><th>Tarix</th><th>Əməliyyat</th></tr></thead><tbody id="deletedOrdersTableBody"></tbody></table></div></div>
+
+        <div id="addOrderModal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h3 data-i18n-key="modalTitleNewOrder">Yeni Sifariş Əlavə Et</h3>
+                <form id="addOrderForm">
+                    <h4 data-i18n-key="mainInfo">Əsas Məlumatlar</h4>
+                    <div class="form-group-inline"><div><label>Böyük:</label><input type="number" id="adultGuests" value="1"></div><div><label>Uşaq:</label><input type="number" id="childGuests" value="0"></div></div>
+                    <label>Turistlər:</label><div id="touristsContainer"></div>
+                    <label>Xarici şirkət:</label><input type="text" id="xariciSirket" name="xariciSirket">
+                    <label>Rez. nömrəsi:</label><input type="text" id="rezNomresi" name="rezNomresi"> 
+                    <hr><div class="dynamic-section-header"><h4>Otel Məlumatları</h4><button type="button" id="addHotelBtn" class="action-btn-small">+</button></div><div id="hotelEntriesContainer"></div>
+                    <hr><h4>Transport</h4><div class="form-group-inline"><div><label>Məlumat:</label><input type="text" id="transport_surucuMelumatlari"></div><div><label>Xərc:</label><input type="number" id="transport_xerci" class="cost-input" value="0"></div></div>
+                    <input type="text" id="transport_odenisKartMelumatlari" placeholder="Kart məlumatı"><textarea id="transport_turTevsiri" rows="3"></textarea><input type="text" id="transport_elaveXidmetler" placeholder="Əlavə xidmətlər">
+                    <hr><h4>Xərclər</h4>
+                    <div class="form-group-inline"><div><label>Paket:</label><input type="number" id="detailedCost_paket" class="cost-input" value="0"></div><div><label>Bələdçi:</label><input type="number" id="detailedCost_beledci" class="cost-input" value="0"></div></div>
+                    <div class="form-group-inline"><div><label>Muzey:</label><input type="number" id="detailedCost_muzey" class="cost-input" value="0"></div><div><label>Viza:</label><input type="number" id="detailedCost_viza" class="cost-input" value="0"></div></div>
+                    <div class="form-group-inline"><div><label>Digər:</label><input type="number" id="detailedCost_diger" class="cost-input" value="0"></div></div>
+                    <hr><h4>Maliyyə</h4>
+                    <div class="form-group-inline"><div><label>Alış:</label><input type="number" id="alishAmount" value="0" readonly></div><div><label>Valyuta:</label><select id="alishCurrency"><option value="AZN">AZN</option><option value="USD">USD</option><option value="EUR">EUR</option></select></div></div>
+                    <div class="form-group-inline"><div><label>Satış:</label><input type="number" id="satishAmount" value="0"></div><div><label>Valyuta:</label><select id="satishCurrency"><option value="AZN">AZN</option><option value="USD">USD</option><option value="EUR">EUR</option></select></div></div>
+                    <hr><h4>Digər</h4>
+                    <label>Status:</label><select id="status" name="status"><option value="Davam edir">Davam edir</option><option value="Bitdi">Bitdi</option><option value="Ləğv edildi">Ləğv edildi</option></select>
+                    <label>Qeyd:</label><input type="text" id="qeyd">
+                    <h4 data-i18n-key="paymentInfo">Ödəniş</h4>
+                    <div class="form-group-inline"><div><label>Status:</label><select id="paymentStatus"><option value="Ödənilməyib">Ödənilməyib</option><option value="Ödənilib">Ödənilib</option></select></div><div><label>Tarix:</label><input type="date" id="paymentDueDate"></div></div>
+                    <button type="submit">Yadda Saxla</button>
+                </form>
+            </div>
+        </div>
+        
+        <div id="noteModal" class="modal"><div class="modal-content"><span class="close-button" id="closeNoteModalBtn">&times;</span><h3 id="noteModalTitle">Qeyd</h3><form id="noteForm"><input type="hidden" id="noteSatisNo"><textarea id="noteText" rows="6"></textarea><button type="submit">Saxla</button></form></div></div>
+        <div id="viewOrderModal" class="modal"><div class="modal-content view-only-modal"><span class="close-button" id="closeViewModalBtn">&times;</span><h3 id="viewModalTitle">Baxış</h3><div id="viewOrderContent"></div><button id="printOrderBtn" class="action-btn-print">Çap Et</button></div></div>
+
+        <div id="settingsPanel" class="settings-panel">
+            <div class="settings-panel-header"><h3>Tənzimləmələr</h3><span class="close-button" id="closeSettingsPanelBtn">&times;</span></div>
+            <div class="settings-panel-body">
+                <div class="setting-item"><label>Animasiyalı Maskot</label><div class="toggle-buttons"><button id="mascotOnBtn" class="toggle-btn active">On</button><button id="mascotOffBtn" class="toggle-btn">Off</button></div></div>
+            </div>
+        </div>
+
+        <div id="financialModal" class="modal">
+            <div class="modal-content" style="max-width: 900px;">
+                <span class="close-button" id="closeFinancialModalBtn" onclick="document.getElementById('financialModal').style.display='none'">&times;</span>
+                <h2 style="text-align: center; color: #333;"><i class="fas fa-coins" style="color: #ffd700;"></i> Maliyyə Hesabatı</h2>
+                <p style="text-align: center; color: #666; margin-bottom: 20px;">(Yalnız aktual rezervasiyalar)</p>
+                
+                <div class="modal-tabs">
+                    <div class="modal-tab active" onclick="switchFinancialTab('tab-general')">Ümumi</div>
+                    <div class="modal-tab" onclick="switchFinancialTab('tab-companies')">Şirkətlər Üzrə</div>
+                    <div class="modal-tab" onclick="switchFinancialTab('tab-hotels')">Otellər Üzrə</div>
+                </div>
+
+                <div id="tab-general" class="modal-tab-content active">
+                    <div id="financialDataContent"></div> </div>
+                
+                <div id="tab-companies" class="modal-tab-content">
+                    <div id="financialCompaniesContent" style="max-height: 400px; overflow-y: auto;"></div>
+                </div>
+
+                <div id="tab-hotels" class="modal-tab-content">
+                    <div id="financialHotelsContent" style="max-height: 400px; overflow-y: auto;"></div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2025 | Bütün hüquqlar qorunur | <a href="https://wa.me/+994505636801" target="_blank">Şirvan</a> tərəfindən hazırlanıb</p>
+    </footer>
+    
+    <div id="bulkActionPanel" class="bulk-action-panel">
+        <div class="bulk-content">
+            <span id="bulkCount">0 sifariş seçilib</span>
+            <div class="bulk-buttons">
+                <button id="bulkArchiveBtn" class="bulk-btn archive"><i class="fas fa-box-archive"></i> Arxivlə</button>
+                <button id="bulkCancelBtn" class="bulk-btn cancel">Ləğv et</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="i18n.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.23/jspdf.plugin.autotable.min.js"></script>
+    <script src="app.js"></script>
+
+    <div id="mascot-container">
+        <div class="mascot-bubble" id="mascot-bubble">Gününüz uğurlu keçsin!</div>
+        <div id="mascot-holding-number"></div>
+        <img src="/mascot.png" alt="Azerweys Maskot">
+    </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tapşırıqlar Paneli</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        .task-row.completed {
+            text-decoration: line-through;
+            color: var(--text-secondary);
+            background-color: #f8f9fa;
+        }
+        .task-row.overdue {
+            border-left: 5px solid var(--danger-color, #ef4444);
+        }
+        .complete-btn {
+            background-color: var(--accent-color);
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .complete-btn:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tapşırıqlar Paneli</h1>
+        <nav>
+            <a href="/" class="logout-btn">Əsas Səhifə</a>
+        </nav>
+    </header>
+    <main>
+        <div class="actions">
+            <button id="showAddTaskModalBtn" class="add-order-btn">Yeni Tapşırıq Ver</button>
+        </div>
+
+        <div id="tasksToMeView">
+            <h2>Mənə Gələn Tapşırıqlar</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Kimdən</th>
+                            <th>Tapşırıq</th>
+                            <th>Sifariş №</th>
+                            <th>Son Tarix</th>
+                            <th>Status</th>
+                            <th>Əməliyyat</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tasksToMeTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <hr style="margin: 40px 0;">
+
+        <div id="tasksByMeView">
+            <h2>Mənim Verdiyim Tapşırıqlar</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Kimə</th>
+                            <th>Tapşırıq</th>
+                            <th>Sifariş №</th>
+                            <th>Son Tarix</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tasksByMeTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <!-- Yeni Tapşırıq Modalı -->
+    <div id="taskModal" class="modal">
+        <div class="modal-content" style="max-width: 600px;">
+            <span class="close-button">&times;</span>
+            <h3>Yeni Tapşırıq</h3>
+            <form id="taskForm">
+                <label for="assignedTo">Kimə:</label>
+                <select id="assignedTo" required>
+                    <option value="">-- İstifadəçi seçin --</option>
+                </select>
+
+                <label for="description">Tapşırıq Mətni:</label>
+                <textarea id="description" rows="4" required placeholder="Məs: 1805 nömrəli sifarişin ödənişi üçün ABC Travel ilə əlaqə saxla."></textarea>
+
+                <label for="relatedOrder">Əlaqəli Sifariş № (istəyə bağlı):</label>
+                <input type="text" id="relatedOrder" placeholder="Məs: 1805">
+
+                <label for="dueDate">Son İcra Tarixi (istəyə bağlı):</label>
+                <input type="date" id="dueDate">
+                
+                <button type="submit">Göndər</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="tasks.js"></script>
+</body>
+</html>

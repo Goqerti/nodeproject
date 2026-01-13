@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İcazələrin İdarə Edilməsi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body { background-color: #f0f2f5; padding: 30px; font-family: 'Inter', sans-serif; }
+        .permission-container { max-width: 1200px; margin: 0 auto; background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        h2 { text-align: center; margin-bottom: 30px; color: #1f2937; font-weight: 700; }
+        
+        /* Şifrə Paneli Stili */
+        #auth-section { max-width: 400px; margin: 0 auto; text-align: center; }
+        #auth-section input { width: 100%; padding: 12px; border: 1px solid #d1d5db; border-radius: 8px; margin-bottom: 15px; font-size: 16px; box-sizing: border-box; }
+        #verifyOwnerBtn { width: 100%; padding: 12px; background-color: #3b82f6; color: white; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; transition: 0.2s; }
+        #verifyOwnerBtn:hover { background-color: #2563eb; }
+
+        /* Cədvəl Stili */
+        .table-container { overflow-x: auto; margin-top: 20px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 15px; text-align: center; border-bottom: 1px solid #e5e7eb; }
+        th { background-color: #f9fafb; font-weight: 600; color: #4b5563; white-space: nowrap; }
+        tr:hover { background-color: #f9fafb; }
+        input[type="checkbox"] { transform: scale(1.3); cursor: pointer; accent-color: #3b82f6; }
+        
+        .save-btn { display: block; width: 250px; padding: 12px; background-color: #10b981; color: white; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; margin: 30px auto 0; transition: background-color 0.2s; }
+        .save-btn:hover { background-color: #059669; }
+        
+        .back-link { display: inline-flex; align-items: center; margin-bottom: 20px; text-decoration: none; color: #6b7280; font-weight: 500; background: white; padding: 10px 15px; border-radius: 8px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+        .back-link:hover { color: #1f2937; }
+        
+        .highlight-col { background-color: #f0fdf4; }
+        .highlight-col-warning { background-color: #fffbeb; }
+    </style>
+</head>
+<body>
+    <a href="/" class="back-link">← Ana Səhifəyə Qayıt</a>
+    
+    <div class="permission-container">
+        <h2>İstifadəçi İcazələri</h2>
+        
+        <div id="auth-section">
+            <p style="margin-bottom: 15px; color: #666;">Davam etmək üçün <b>Owner</b> parolunu daxil edin:</p>
+            <input type="password" id="ownerPassword" placeholder="Şifrəni daxil edin...">
+            <button id="verifyOwnerBtn">Təsdiqlə</button>
+        </div>
+
+        <div id="permissions-section" style="display: none;">
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="text-align: left;">İstifadəçi</th>
+                            <th>Düzəliş (Edit)</th>
+                            <th>Silmə (Delete)</th>
+                            <th>Maliyyə Düzəlişi</th>
+                            <th>Ödəniş Statusu</th>
+                            <th class="highlight-col-warning">Maliyyəyə Baxış</th>
+                            <th class="highlight-col">Arxivləmə</th>
+                        </tr>
+                    </thead>
+                    <tbody id="permissionsTableBody">
+                        </tbody>
+                </table>
+            </div>
+            <button class="save-btn" id="savePermissionsBtn">Yadda Saxla</button>
+        </div>
+    </div>
+
+    <script src="permissions.js"></script>
+</body>
+</html>

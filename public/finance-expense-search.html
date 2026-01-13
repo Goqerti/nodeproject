@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maliyyə - Detallı Xərc Axtarışı</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        header nav .nav-btn {
+            font-family: var(--primary-font);
+            padding: 8px 16px;
+            border: 1px solid transparent;
+            background-color: transparent;
+            color: var(--text-secondary);
+            cursor: pointer;
+            border-radius: 6px;
+            font-size: 0.9em;
+            font-weight: 500;
+            transition: background-color 0.2s, color 0.2s;
+            text-decoration: none;
+        }
+        header nav .nav-btn:hover {
+            background-color: #f3f4f6;
+            color: var(--text-primary);
+        }
+        header nav .nav-btn.active {
+            background-color: var(--primary-action-color);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Maliyyə Paneli</h1>
+        <nav>
+            <a href="/finance.html" class="nav-btn">İnzibati Xərclər</a> 
+            <a href="/finance-reports.html" class="nav-btn">Şirkət Hesabatları</a>
+            <a href="/inventory.html" class="nav-btn">İnventar Uçotu</a>
+            <a href="/finance-expense-search.html" class="nav-btn active">Detallı Xərc Axtarışı</a>
+            <a href="/" class="logout-btn">Əsas Səhifə</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="filteredExpensesView">
+            <h2>Xərclər üzrə Detallı Axtarış</h2>
+            <div class="filters-container">
+                <div>
+                    <label for="filterCategory">Kateqoriya Seçin:</label>
+                    <select id="filterCategory">
+                        <option value="">-- Bütün kateqoriyalar --</option>
+                        <option value="icare">İcarə</option>
+                        <option value="kommunal">Kommunal</option>
+                        <option value="telefon">Telefon</option>
+                        <option value="ofis">Ofis xərcləri</option>
+                        <option value="reklam">Reklam</option>
+                        <option value="maas">Maaş</option>
+                        <option value="sosial_sigorta">Sosial sığorta</option>
+                        <option value="icbari_sigorta">İcbari sığorta</option>
+                        <option value="yanacaq">Maşın yanacaq</option>
+                        <option value="gunluk">Günlük xərclər</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="filterMonth">Ay və İl Seçin:</label>
+                    <input type="month" id="filterMonth">
+                </div>
+                <button id="filterExpensesBtn" class="filter-apply-btn">Axtar</button>
+            </div>
+
+            <div class="table-container" style="margin-top: 20px;">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tarix</th>
+                            <th>Məbləğ</th>
+                            <th>Şərh (Kimə/Nə üçün)</th>
+                            <th>Əlavə edən</th>
+                        </tr>
+                    </thead>
+                    <tbody id="filteredExpensesTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    
+    <script src="finance-expense-search.js"></script>
+</body>
+</html>

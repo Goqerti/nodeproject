@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maliyyə - İnventar Uçotu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        header nav .nav-btn {
+            font-family: var(--primary-font);
+            padding: 8px 16px;
+            border: 1px solid transparent;
+            background-color: transparent;
+            color: var(--text-secondary);
+            cursor: pointer;
+            border-radius: 6px;
+            font-size: 0.9em;
+            font-weight: 500;
+            transition: background-color 0.2s, color 0.2s;
+            text-decoration: none;
+        }
+        header nav .nav-btn:hover {
+            background-color: #f3f4f6;
+            color: var(--text-primary);
+        }
+        header nav .nav-btn.active {
+            background-color: var(--primary-action-color);
+            color: white;
+        }
+        .action-btn.print-label {
+            color: #10b981; /* Yaşıl */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Maliyyə Paneli</h1>
+        <nav>
+            <a href="/finance.html" class="nav-btn">İnzibati Xərclər</a> 
+            <a href="/finance-reports.html" class="nav-btn">Şirkət Hesabatları</a>
+            <a href="/inventory.html" class="nav-btn active">İnventar Uçotu</a>
+            <a href="/" class="logout-btn">Əsas Səhifə</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="inventoryView">
+            <h2>Avadanlıqların Siyahısı</h2>
+            <div class="actions">
+                <button id="showAddItemModalBtn" class="add-order-btn">Yeni Avadanlıq Əlavə Et</button>
+            </div>
+            <div class="table-container" style="margin-top: 20px;">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>İnventar Kodu</th>
+                            <th>Adı</th>
+                            <th>Kateqoriya</th>
+                            <th>Təhkim Edilib</th>
+                            <th>Status</th>
+                            <th>Alınma Tarixi</th>
+                            <th>Qiymət (AZN)</th>
+                            <th>Əməliyyatlar</th>
+                        </tr>
+                    </thead>
+                    <tbody id="inventoryTableBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <!-- Avadanlıq Əlavə Etmə/Düzəliş Modalı -->
+    <div id="itemModal" class="modal">
+        <div class="modal-content" style="max-width: 600px;">
+            <span class="close-button">&times;</span>
+            <h3 id="modalTitle">Yeni Avadanlıq</h3>
+            <form id="itemForm">
+                <input type="hidden" id="itemId">
+
+                <label for="name">Avadanlığın adı:</label>
+                <input type="text" id="name" required placeholder="Məs: HP ProBook 450 G8 Laptop">
+
+                <label for="category">Kateqoriya:</label>
+                <select id="category" required>
+                    <option value="" disabled selected>-- Kateqoriya seçin --</option>
+                    <option value="Kompüter">Kompüter</option>
+                    <option value="Mebel">Mebel</option>
+                    <option value="Printer">Printer</option>
+                    <option value="Ofis ləvazimatı">Ofis ləvazimatı</option>
+                    <option value="Digər">Digər</option>
+                </select>
+
+                <div class="form-group-inline" style="margin-top: 15px;">
+                    <div>
+                        <label for="purchasePrice">Alış qiyməti (AZN):</label>
+                        <input type="number" id="purchasePrice" placeholder="0.00" step="0.01">
+                    </div>
+                    <div>
+                        <label for="purchaseDate">Alınma tarixi:</label>
+                        <input type="date" id="purchaseDate">
+                    </div>
+                </div>
+
+                <div class="form-group-inline">
+                    <div>
+                        <label for="assignedTo">Kimə təhkim edilib:</label>
+                        <input type="text" id="assignedTo" placeholder="İşçinin adı və ya 'Anbarda'">
+                    </div>
+                    <div>
+                        <label for="status">Status:</label>
+                        <select id="status">
+                            <option value="İstifadədə">İstifadədə</option>
+                            <option value="Anbarda">Anbarda</option>
+                            <option value="Təmirdə">Təmirdə</option>
+                            <option value="Yararsız">Yararsız</option>
+                        </select>
+                    </div>
+                </div>
+
+                <label for="notes">Qeydlər:</label>
+                <textarea id="notes" rows="3" placeholder="Zəmanət müddəti, texniki göstəricilər və s."></textarea>
+
+                <button type="submit" id="submitButton">Yadda Saxla</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="inventory.js"></script>
+</body>
+</html>

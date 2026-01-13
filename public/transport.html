@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transport İdarəetmə</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+ /* === Naviqasiya stilləri === */
+        header nav .nav-btn {
+            font-family: var(--primary-font);
+            padding: 8px 16px;
+            border: 1px solid transparent;
+            background-color: transparent;
+            color: var(--text-secondary);
+            cursor: pointer;
+            border-radius: 6px;
+            font-size: 0.9em;
+            font-weight: 500;
+            transition: background-color 0.2s, color 0.2s;
+            text-decoration: none;
+        }
+        header nav .nav-btn:hover {
+            background-color: #f3f4f6;
+            color: var(--text-primary);
+        }
+        header nav .nav-btn.active {
+            background-color: var(--primary-action-color);
+            color: white;
+        }
+        
+        /* === Sifariş Sətrinin Status Rəngləri === */
+        .order-row.status-paid { border-left: 5px solid #28a745; }
+        .order-row.status-partial { border-left: 5px solid #ffc107; }
+        .order-row.status-unpaid { border-left: 5px solid #dc3545; }
+
+        /* ============================================== */
+        /* SİFARİŞ FORMASI (addOrderForm) ÜÇÜN STILLƏR   */
+        /* ============================================== */
+
+        /* --- Modal Pəncərənin Ümumi Stili --- */
+        .modal {
+            display: none; /* YALNIZ BU QALMALIDIR */
+            position: fixed; 
+            z-index: 1000; 
+            left: 0; 
+            top: 0; 
+            width: 100%; 
+            height: 100%; 
+            background-color: rgba(17, 24, 39, 0.6);
+            backdrop-filter: blur(4px);
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* --- Modal Məzmun Bloku (Ağ Pəncərə) --- */
+        .modal-content {
+            background-color: var(--surface-color, #ffffff); 
+            padding: 35px; 
+            border: none;
+            width: 90%; 
+            max-width: 850px; 
+            border-radius: 12px; 
+            box-shadow: var(--shadow-md, 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1));
+            position: relative;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        /* --- Modal Başlıqları --- */
+        .modal-content h3 { 
+            margin-top: 0; 
+            font-size: 1.5em; 
+            border-bottom: 1px solid var(--border-color, #e5e7eb); 
+            padding-bottom: 15px; 
+            margin-bottom: 25px;
+        }
+        .modal-content h4 { 
+            font-size: 1.1em; 
+            color: var(--primary-action-color, #3b82f6); 
+            margin-top: 25px; 
+            margin-bottom: 15px; 
+        }
+
+        /* --- Bağlama (X) Düyməsi --- */
+        .close-button { 
+            color: #9ca3af; 
+            float: right; 
+            font-size: 32px; 
+            font-weight: bold; 
+            transition: color 0.2s; 
+            position: absolute; 
+            top: 15px; 
+            right: 25px; 
+            cursor: pointer; 
+        }
+        .close-button:hover, .close-button:focus { 
+            color: var(--text-primary, #1f2937); 
+            text-decoration: none; 
+        }
+
+        /* --- Formanın Daxili Elementləri --- */
+        #addOrderForm label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+
+        #addOrderForm input[type="text"],
+        #addOrderForm input[type="number"],
+        #addOrderForm input[type="date"],
+        #addOrderForm select,
+        #addOrderForm textarea {
+            width: 100%; 
+            padding: 10px 12px; 
+            border: 1px solid var(--border-color, #e5e7eb); 
+            border-radius: 6px; 
+            box-sizing: border-box; 
+            font-size: 0.95em; 
+            background-color: #f9fafb;
+        }
+
+        #addOrderForm button[type="submit"] {
+            background-color: var(--accent-color, #10b981); 
+            color: white; 
+            padding: 12px 25px; 
+            border: none;
+            border-radius: var(--border-radius, 8px); 
+            cursor: pointer; 
+            font-size: 1em; 
+            margin-top: 30px; 
+            display: block;
+            width: auto; 
+            min-width: 200px; 
+            margin-left: auto; 
+            margin-right: auto; 
+            transition: background-color 0.2s; 
+            font-weight: 600;
+        }
+
+        #addOrderForm button[type="submit"]:hover {
+            background-color: var(--accent-hover, #059669);
+        }
+
+        .form-group-inline { 
+            display: flex; 
+            gap: 20px; 
+            align-items: center; 
+            margin-bottom: 12px; 
+        }
+        .form-group-inline > div { 
+            flex: 1; 
+        }
+
+        .hotel-entry { 
+            background-color: #f9fafb; 
+            padding: 16px; 
+            border: 1px solid var(--border-color, #e5e7eb); 
+            border-radius: var(--border-radius, 8px); 
+            margin-bottom: 16px; 
+        }
+        .dynamic-section-header { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+        }
+
+        .dynamic-input-container .form-group { margin-bottom: 10px; }
+        .dynamic-input-container .form-group label { font-size: 0.9em; color: #555; }
+        
+        .payment-toggle-btn { padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; cursor: pointer; font-size: 0.8em; background-color: #f8f9fa; transition: all 0.2s; }
+        .payment-toggle-btn.paid { background-color: var(--accent-color); color: white; border-color: var(--accent-color); }
+        
+        .form-group-inline.payment-item { justify-content: space-between; align-items: center; margin-bottom: 10px; }
+        .form-group-inline.payment-item label { margin-bottom: 0; text-align: left; }
+        .form-group-inline.payment-item input { max-width: 150px; }
+        .hotel-entry .form-group-inline { justify-content: space-between; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Transport Paneli</h1>
+        <nav>
+            <a href="/" class="logout-btn">Əsas Səhifə</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Transport Paketləri</h2>
+        <div class="filters-container">
+            <div><label for="filterMonth">Ay/İl seçin:</label><input type="month" id="filterMonth"></div>
+            <button id="applyFiltersBtn" class="filter-apply-btn">Filterlə</button>
+            <button id="resetFiltersBtn" class="filter-reset-btn">Sıfırla</button>
+        </div>
+        <div class="actions">
+            <button id="showAddPackageModalBtn" class="add-order-btn">Yeni Transport Paketi Əlavə Et</button>
+        </div>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tarix</th>
+                        <th>Sürücü</th>
+                        <th>Gediləcək Yer</th>
+                        <th>Maşın</th>
+                        <th>Yekun Xərc (AZN)</th>
+                        <th>Əlavə edən</th>
+                        <th>Əməliyyatlar</th>
+                    </tr>
+                </thead>
+                <tbody id="transportTableBody"></tbody>
+            </table>
+        </div>
+    </main>
+
+    <!-- Yeni Paket Modalı -->
+    <div id="packageModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h3>Yeni Transport Paketi</h3>
+            <form id="packageForm">
+                <div class="form-group-inline">
+                    <div><label>Sürücü Adı:</label><input type="text" id="driverName" required></div>
+                    <div><label>Sürücü Ödənişi:</label><input type="number" id="driverPayment" class="cost-input" value="0" step="0.01"></div>
+                </div>
+                <div class="form-group-inline">
+                    <div><label>Gediləcək Yer:</label><input type="text" id="destination" required></div>
+                </div>
+                <div class="form-group-inline">
+                    <div><label>Gediş Tarixi:</label><input type="date" id="departureDate"></div>
+                    <div><label>Gəliş Tarixi:</label><input type="date" id="arrivalDate"></div>
+                </div>
+                 <div class="form-group-inline">
+                    <div><label>Maşın Modeli:</label><input type="text" id="vehicleModel"></div>
+                    <div><label>Maşın Nömrəsi:</label><input type="text" id="vehiclePlate"></div>
+                </div>
+                <hr>
+                <h4>Sərnişinlər</h4>
+                <div class="form-group-inline">
+                     <div><label>Qonaq Sayı:</label><input type="number" id="guestCount" value="1" min="0"></div>
+                </div>
+                <div id="guestNamesContainer" class="dynamic-input-container"></div>
+                <hr>
+                <h4>Əlavə Xərclər</h4>
+                <div id="otherCostsContainer"></div>
+                <button type="button" id="addOtherCostBtn" class="action-btn-small" style="background:var(--accent-color); color:white;">+</button>
+                <hr>
+                <div class="total-amount-display">Yekun Xərc: <span id="totalCost">0.00</span> AZN</div>
+                <button type="submit">Paketi Yadda Saxla</button>
+            </form>
+        </div>
+    </div>
+    <script src="transport.js"></script>
+</body>
+</html>

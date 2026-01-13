@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partnyorlar - Goqerti</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Partnyor səhifəsinə özəl bəzi kiçik düzəlişlər */
+        .actions-bar {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .search-container {
+            flex-grow: 1;
+            max-width: 400px;
+            position: relative;
+        }
+
+        .search-container i {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #aaa;
+        }
+
+        #partner-search {
+            width: 100%;
+            padding: 10px 10px 10px 35px; /* İkon üçün yer */
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        /* Modal daxili tarix qrupu üçün */
+        .date-input-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <h1><i class="fas fa-handshake"></i> Partnyorlar</h1>
+                <button id="logout-btn" class="btn btn-secondary" onclick="window.location.href='/login.html'"><i class="fas fa-sign-out-alt"></i> Çıxış</button>
+            </div>
+            <nav>
+                <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Ana Səhifə</a>
+                <a href="tasks.html" class="nav-link"><i class="fas fa-tasks"></i> Tapşırıqlar</a>
+                <a href="finance.html" class="nav-link"><i class="fas fa-chart-line"></i> Maliyyə</a>
+                </nav>
+        </header>
+
+        <main>
+            <div class="actions-bar">
+                <button id="add-partner-btn" class="btn btn-primary">
+                    <i class="fas fa-plus"></i> Yeni Partnyor
+                </button>
+                
+                <div class="search-container">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="partner-search" placeholder="Axtar: Şirkət, Ölkə, Nömrə...">
+                </div>
+            </div>
+
+            <div class="table-responsive">
+                <table class="data-table" id="partners-table">
+                    <thead>
+                        <tr>
+                            <th>Şirkət Adı</th>
+                            <th>Ölkə</th>
+                            <th>Nömrə</th>
+                            <th>Yazılma Tarixləri</th>
+                            <th>Qısa Təsvir</th>
+                            <th>Əməliyyatlar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <div id="partner-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title">Partnyor Məlumatları</h2>
+            
+            <form id="partner-form">
+                <input type="hidden" id="partner-id">
+                
+                <div class="form-row">
+                    <div class="form-group" style="flex: 1;">
+                        <label>Şirkət Adı: <span style="color:red">*</span></label>
+                        <input type="text" id="p-name" class="form-input" required>
+                    </div>
+                    <div class="form-group" style="flex: 1;">
+                        <label>Ölkə:</label>
+                        <input type="text" id="p-country" class="form-input">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Əlaqə Nömrəsi:</label>
+                    <input type="text" id="p-phone" class="form-input">
+                </div>
+
+                <div class="form-group" style="background: #f9f9f9; padding: 10px; border-radius: 5px;">
+                    <label style="font-weight: bold;">Yazılma Tarixləri:</label>
+                    <div id="dates-container">
+                        </div>
+                    <button type="button" id="add-date-btn" class="btn btn-small btn-info" style="margin-top: 5px;">
+                        <i class="fas fa-calendar-plus"></i> Tarix Əlavə et
+                    </button>
+                </div>
+
+                <div class="form-group">
+                    <label>Qısa Təsvir:</label>
+                    <input type="text" id="p-short-desc" class="form-input" placeholder="Məsələn: Logistika partnyoru">
+                </div>
+
+                <div class="form-group">
+                    <label>Tam Təsvir:</label>
+                    <textarea id="p-full-desc" class="form-input" rows="3" placeholder="Şirkət haqqında ətraflı məlumat..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Qeydlər (Notlar):</label>
+                    <textarea id="p-notes" class="form-input" rows="2" placeholder="Xüsusi qeydlər..."></textarea>
+                </div>
+
+                <div class="modal-footer" style="margin-top: 20px; text-align: right;">
+                    <button type="submit" class="btn btn-primary">Yadda Saxla</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="partners.js"></script>
+</body>
+</html>
